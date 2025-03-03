@@ -1,0 +1,116 @@
+improved hero section ✅
+added scrollbutton in hero ✅
+removed canvas reveal ✅
+
+change email in bento grid ✅
+put CTA in hero ✅
+improved bento grid ✅
+added colored tiles in bento ✅
+added sparkles in bento ✅
+whatsapp integration ✅
+
+tried to add favicon ✅
+fixed floating navbar in mobile ✅
+added mode toggle in navbar ✅
+universal text selection to purple ✅
+added prettier tailwind classes sorter ✅
+implemented light mode in navbar, hero ✅
+fix navbar, it moves away very quickly ✅
+
+added services section ✅
+glass dysmorphism in navbar ✅
+navbar shows at top ✅
+added apple gradient to hero text and removed text generate effect ✅
+fix spotlights in hero in mobile ✅
+
+light mode in services ✅
+pricing main section ✅
+
+changed folder layout for routing ✅
+made 404 page ✅
+extended footer and included all links ✅
+added privacy policy ✅
+detailed pricing page ✅
+
+added active links to navbar ✅
+added FAQs to the pricing page ✅
+add RJ in footer ✅
+remove navbar in mobile; use hamburger instead ✅
+added mode toggle for mobile devices ✅
+
+add svg beside bundle names in pricing ✅
+fixed light mode in pricing page ✅
+deployed to vercel ✅
+added speed insights of vercel ✅
+removed redundant files ✅
+changed font sitewide ✅
+removed bentogrid in lightmode ✅
+
+added terms of use ✅
+connected porkbun domain to vercel hosting & edited dns records ✅
+registered website w google
+added vercel analytics ✅
+
+tidied up public folder ✅
+fixed console errors ✅
+changed all a tags to Link ✅
+added dynamic import to grid, services, whatsapp, footer, faqs, scrollbutton ✅
+changed logo ✅
+updated footer social links ✅
+put logo in footer & improved it ✅
+implemented loading state between pages ✅
+used semantic tags ✅
+rewrite all alt tags of images ✅
+add meta tags in html and then use opengraph.xyz3 to check ✅
+
+changed png images to webp ✅
+removed older svg from service cards ✅
+
+added tidycal booking links in cta ✅
+put decent images in service card ✅
+
+fixed foundation pricing ✅
+added temp pricing in foundation ✅
+removed tidycal; added calendly cta ✅
+
+changed digital marketing to medical marketing in hero ✅
+integrated posthog analytics ✅
+integrated partytown ✅
+
+adjusted pricing faq answer color ✅
+light mode footer ✅
+improved hero ✅
+minor UI changes ✅
+put privacy policy and terms into legal ✅
+removed why us from navbar ✅
+fixed service card in mobile view ✅
+added subscribe section in home ✅
+default mode is light ✅
+grid&dotbg abstracted ✅
+
+hero light mode mobile view ✅
+completely reimagined pricing section ✅
+single pricing file ✅
+finished contact us page ✅
+cookie accept ✅
+added svg icons in footer contact links ✅
+privacy policy lexend font ✅
+
+navbar page animation like drvarunagarwal
+gsap
+recreate pricing page in jsx
+about page
+poppins font
+
+put its citations in all marketing directories
+make popup modal telling users about free website offer on homepage & with the link to fill google form
+react hot toast in subscribe
+receive the emails in subscribe
+in pleiades show 5 steps and put CTA
+do seo
+
+----------------------------------------------------------------------------------------
+OPTIMIZATION:
+use PurgeCss to remove unused CSS
+minimize js by tree shaking
+use a CDN to serve static assets

@@ -1,0 +1,62 @@
+// "use client";
+import React, { useEffect, useRef } from "react";
+// import { gsap } from "gsap";
+import { SparklesRJ } from "@/components/SparklesRJ";
+
+export const metadata = {
+  title: "rj",
+};
+
+const Page = () => {
+  // const rjRef = useRef(null);
+
+  // useEffect(() => {
+  //   const ctx = gsap.context(() => {
+  //     const tl = gsap.timeline();
+
+  //     // Set initial opacity to 0
+  //     gsap.set(rjRef.current, { opacity: 0 });
+
+  //     tl.to(rjRef.current, { opacity: 1, duration: 1 })
+  //       .fromTo(
+  //         ".fade-in-image", // Apply to elements with this class
+  //         { opacity: 0 },
+  //         { opacity: 1, duration: 2, ease: "power3.out" },
+  //       )
+  //       .fromTo(
+  //         ".fly-in-dev",
+  //         { y: 25, opacity: 0 },
+  //         { y: 0, opacity: 1, duration: 1.5, ease: "power3.out" },
+  //         "-=1.5",
+  //       )
+  //       .fromTo(
+  //         ".fade-in-rj",
+  //         { opacity: 0 },
+  //         { opacity: 1, duration: 2, ease: "power3.out" },
+  //         "-=0.5",
+  //       );
+  //   }, rjRef);
+
+  //   return () => ctx.revert(); // Cleanup GSAP context
+  // }, []);
+
+  return (
+    <div
+      // ref={rjRef}
+      className="relative flex h-screen items-center justify-center overflow-hidden"
+      // className="relative flex h-screen items-center justify-center overflow-hidden bg-black-100"
+    >
+      <SparklesRJ />
+      <main className="text-center">
+        <div className="fly-in-dev mb-5 text-4xl font-extralight lowercase md:mb-10 md:text-6xl xl:mb-12 xl:text-8xl">
+          Developed by
+        </div>
+        <div className="fade-in-rj text-4xl font-extrabold tracking-widest md:text-6xl xl:text-8xl">
+          rj
+        </div>
+      </main>
+    </div>
+  );
+};
+
+export default Page;
