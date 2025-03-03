@@ -96,11 +96,13 @@ cookie accept ✅
 added svg icons in footer contact links ✅
 privacy policy lexend font ✅
 
+poppins font ✅
+added more FAQs ✅
+replaced services page with reviews page ✅
 navbar page animation like drvarunagarwal
 gsap
 recreate pricing page in jsx
 about page
-poppins font
 
 put its citations in all marketing directories
 make popup modal telling users about free website offer on homepage & with the link to fill google form
