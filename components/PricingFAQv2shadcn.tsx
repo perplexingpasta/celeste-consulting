@@ -1,20 +1,18 @@
-"use client";
-import React from "react";
-import { Accordion, AccordionItem } from "@nextui-org/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
-const PricingFAQ = () => {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
+const PricingFAQv2shadcn = () => {
   return (
-    <Accordion>
-      <AccordionItem
-        key="1"
-        aria-label="What is a patient acquisition agency?"
-        title="What is a patient acquisition agency?"
-        className="font-semibold"
-      >
-        <div className="font-normal leading-relaxed text-gray-700 dark:text-white mb-4">
+    <Accordion type="single" collapsible className="w-full">
+      <AccordionItem value="item-1">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          What is a patient acquisition agency?
+        </AccordionTrigger>
+        <AccordionContent className="mb-4 text-sm font-normal leading-relaxed text-gray-700 dark:text-white md:text-lg lg:text-lg">
           In simple terms, a patient acquisition agency gets you more patients
           reliably and helps you scale your practice.
           <br /> To be more precise, we do everything from capturing interested
@@ -24,15 +22,14 @@ const PricingFAQ = () => {
           word-of-mouth and get you patients in a consistent and predictable
           manner. This gives you complete peace of mind so that you can do what
           you do best — treating and taking care of your patients.
-        </div>
+        </AccordionContent>
       </AccordionItem>
-      <AccordionItem
-        key="2"
-        aria-label="What's the main difference between these suites?"
-        title="What's the main difference between these suites?"
-        className="font-semibold"
-      >
-        <div className="font-normal leading-relaxed text-gray-700 dark:text-white mb-4">
+
+      <AccordionItem value="item-2">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          What&apos;s the main difference between these suites?
+        </AccordionTrigger>
+        <AccordionContent className="mb-4 text-sm font-normal leading-relaxed text-gray-700 dark:text-white md:text-lg">
           We&apos;ve designed these suites in order of how committed you want to
           be with growing your practice and getting in more patients as a
           result. If you&apos;re unsure of our services or whether you&apos;ve
@@ -43,27 +40,14 @@ const PricingFAQ = () => {
           recommend you to go for the{" "}
           <span className="font-bold dark:text-purple">Master Suite</span>.
           It&apos;s simply the best.
-        </div>
+        </AccordionContent>
       </AccordionItem>
-      {/* <AccordionItem
-        key="2"
-        aria-label="What are guaranteed appointments?"
-        title="What are guaranteed appointments?"
-        className="font-semibold"
-      >
-        <div className="text-gray-700 font-normal mb-4 dark:text-white-100">
-          In each tier we guarantee a particular number of appointments. An appointment is by definition a person who has shown interest in your ad and has booked a time and date for appointment to your clinic. This marks 1 appointment. After this, we ensure that the appointment is seen through and the person actually comes for paid consultation. That said, we only guarantee appointments if you follow everything as we say.
-          <br />
-          In the rare event that we can&apos;t hit our guaranteed appointment goal for the month, we&apos;ll keep working with you for free until we get you those guaranteed number of appointments.
-        </div>
-      </AccordionItem> */}
-      <AccordionItem
-        key="3"
-        aria-label="Are there any hidden charges?"
-        title="Are there any hidden charges?"
-        className="font-semibold"
-      >
-        <div className="dark:text-white-100 font-normal leading-relaxed text-gray-700 mb-4">
+
+      <AccordionItem value="item-3">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          Are there any hidden charges?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
           Absolutely not!
           <br />
           We operate on a retainer model. That means per month, based on the
@@ -72,29 +56,27 @@ const PricingFAQ = () => {
           website, all our other services (depending on the suite) and our own
           fee as well. You don&apos;t ever have to pay another penny on top of
           this. Promise!
-        </div>
+        </AccordionContent>
       </AccordionItem>
-      <AccordionItem
-        key="4"
-        aria-label="How do you guarantee results?"
-        title="How do you guarantee results?"
-        className="font-semibold"
-      >
-        <div className="dark:text-white-100 font-normal leading-relaxed text-gray-700 mb-4">
+
+      <AccordionItem value="item-4">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          How do you guarantee results?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
           At the moment, we do not offer any guarantees per se. The idea is to
           work together for a couple of months and you will definitely see a
           revenue bump by an increment in your patient inflow and the retention
           of your older patients. Since this is marketing, it takes time to show
           powerful results and its effect only compounds over time.
-        </div>
+        </AccordionContent>
       </AccordionItem>
-      <AccordionItem
-        key="5"
-        aria-label="What are business emails?"
-        title="What are business emails?"
-        className="font-semibold"
-      >
-        <div className="dark:text-white-100 font-normal leading-relaxed text-gray-700 mb-4">
+
+      <AccordionItem value="item-5">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          What are business emails?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
           Business emails are essential for your profession. They are made from
           your website domain so if you get dradamsmith.com as your domain for
           your website, you can have &quot;help@dradamsmith.com&quot; or
@@ -103,15 +85,14 @@ const PricingFAQ = () => {
           to make a new email account, we&apos;ll simply forward all incoming
           emails to your personal email which can be your gmail account. As a
           result, you get to receive all your emails in the same inbox.
-        </div>
+        </AccordionContent>
       </AccordionItem>
-      <AccordionItem
-        key="6"
-        aria-label="What features will I get in the website?"
-        title="What features will I get in the website?"
-        className="font-semibold"
-      >
-        <div className="dark:text-white-100 font-normal leading-relaxed text-gray-700 mb-4">
+
+      <AccordionItem value="item-6">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          What features will I get in the website?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
           All our websites will at least have the following features:
           <br />
           <br />
@@ -132,16 +113,14 @@ const PricingFAQ = () => {
             <li>+ Follows the best Accessibility Practices</li>
             <li>+ Regular Website Testing & Maintenance</li>
           </ul>
-        </div>
+        </AccordionContent>
       </AccordionItem>
 
-      <AccordionItem
-        key="7"
-        aria-label="What are strategy meetings?"
-        title="What are strategy meetings?"
-        className="font-semibold"
-      >
-        <div className="dark:text-white-100 font-normal leading-relaxed text-gray-700 mb-4">
+      <AccordionItem value="item-7">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          What are strategy meetings?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
           In our professional & master suites, we provide strategy meetings, the
           frequency of which is monthly for the{" "}
           <span className="font-bold dark:text-purple">Professional Suite</span>{" "}
@@ -153,10 +132,10 @@ const PricingFAQ = () => {
           can have the peace of mind that everything is going well and according
           to plan. We also talk about which ads are performing well and where we
           should focus our efforts for best optimization and efficiency.
-        </div>
+        </AccordionContent>
       </AccordionItem>
     </Accordion>
   );
 };
 
-export default PricingFAQ;
+export default PricingFAQv2shadcn;

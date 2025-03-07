@@ -8,10 +8,10 @@ const Footer = () => {
     links: [
       { label: "Home", href: "/" },
       { label: "Services", href: "/#services" },
-      { label: "Why Us", href: "/#testimonials" },
+      { label: "Reviews", href: "/reviews" },
       { label: "Pricing", href: "/pricing" },
       { label: "Contact", href: "/contact" },
-      { label: "About Us", href: "/about" },
+      { label: "About Us", href: "/" },
     ],
   };
 
@@ -76,7 +76,7 @@ const Footer = () => {
                     className="mt-3 cursor-pointer text-sm leading-normal text-white-400 transition-all hover:scale-110 hover:text-purple md:text-base"
                     key={item.label}
                   >
-                    <Link href={item.href} target="_blank" rel="noopener">
+                    <Link href={item.href} rel="noopener">
                       {item.label}
                     </Link>
                   </li>
