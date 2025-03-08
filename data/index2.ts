@@ -117,8 +117,8 @@ export const servicesv2 = [
   },
   {
     id: 7,
-    title: "Receptionist Helper",
-    des: "Turn your receptionist into a medical sales machine that never misses a new lead with our AI software Orion specifically built for dermatological practices.",
+    title: "Front Desk Helper",
+    des: "Turn your Front Desk into a medical sales machine that never misses a new lead with our AI Orion specifically built for dermatological practices.",
   },
   {
     id: 8,
