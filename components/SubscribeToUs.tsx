@@ -10,8 +10,7 @@ const SubscribeToUs = () => {
               Subscribe
             </h2> */}
             <p className="text-xl font-medium text-black-100 dark:font-normal dark:text-white md:text-2xl">
-              Subscribe to our newsletter for the latest updates in the
-              dermatology community 🪄
+              Subscribe to our newsletter for the latest dermatological marketing tips 🪄
             </p>
           </div>
           <form>

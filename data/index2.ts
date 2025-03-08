@@ -84,6 +84,69 @@ export const services = [
   },
 ];
 
+export const servicesv2 = [
+  {
+    id: 1,
+    title: "Patient-Oriented Medical Website",
+    des: "All our websites are hand-coded which makes them superfast! Looks so good that you won't stop talking about it. Guaranteed.",
+  },
+  {
+    id: 2,
+    title: "Ad Management & Medical Marketing",
+    des: "Run targeted ad campaigns for your ideal patient demographic. Supplemented with landing pages for maximum effect.",
+  },
+  {
+    id: 3,
+    title: "Lead Nurturing",
+    des: "Automate the entire lead nurturing process and get over a 70% show up rate on all generated leads.",
+  },
+  {
+    id: 4,
+    title: "Sales",
+    des: "Talking to prospective patients, ethical  persuasion, handling objections and closing the deal. All of this, so that they show up for consultation.",
+  },
+  {
+    id: 5,
+    title: "Data Reactivation",
+    des: "Launch your 1st dermatological Data Reactivation campaign and generate 50-500 high quality appointments for free.",
+  },
+  {
+    id: 6,
+    title: "Google Business Profile Manager",
+    des: "Boost your dermatology practice's listing on Google Maps and get more 5 star reviews from your satisfied patients.",
+  },
+  {
+    id: 7,
+    title: "Receptionist Helper",
+    des: "Turn your receptionist into a medical sales machine that never misses a new lead with our AI software Orion specifically built for dermatological practices.",
+  },
+  {
+    id: 8,
+    title: "Operations",
+    des: "How to manage your entire practice, systemize, optimize for efficiency, leverage technology from a business standpoint.",
+  },
+  {
+    id: 9,
+    title: "Management & Hiring",
+    des: "Educate your staff on the best practices, skills & etiquette to attend to patients so they feel most satisfied with the overall experience.",
+  },
+  {
+    id: 10,
+    title: "Email Marketing",
+    des: "Set up a patient database which will help in email marketing and further draw in more patients around the year.",
+  },
+  {
+    id: 11,
+    title: "Brand Identity",
+    des: "Build a strong presence by curating an identity for your practice. A color palette, logo & aesthetic to establish familiarity among new patients.",
+  },
+  {
+    id: 12,
+    title: "Access To Our Community",
+    des: "Access to our exclusive community of experienced dermatologists from all over India. Learn practical tips for best running your own practice.",
+  },
+];
+
 export const testimonials = [
   {
     quote:

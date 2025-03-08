@@ -36,7 +36,7 @@ const Footer = () => {
     ],
   };
   return (
-    <div className="relative mx-auto mt-20 flex max-w-[85rem] flex-col items-center justify-center overflow-clip px-5 pt-10 text-white dark:mt-0 sm:px-10 lg:pt-20 dark:lg:pt-32">
+    <div className="relative mx-auto mt-20 bg-black-100 flex max-w-[85rem] flex-col items-center justify-center overflow-clip px-5 pt-10 text-white sm:px-10 lg:pt-20">
       <div className="relative w-full pb-10 font-lexendDeca" id="footer">
         {/* <div className="absolute left-0 top-0 flex h-[20rem] w-full items-center justify-center bg-white bg-grid-black/[0.05] dark:bg-black-100 dark:bg-grid-white/[0.05]">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />

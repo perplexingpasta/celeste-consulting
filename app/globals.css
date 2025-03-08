@@ -80,7 +80,11 @@
 
 @layer utilities {
   .heading {
-    @apply text-center text-4xl font-extrabold tracking-wider uppercase md:text-5xl;
+    @apply text-center text-4xl font-extrabold uppercase tracking-wider md:text-5xl;
+  }
+
+  .headingv2 {
+    @apply text-center text-4xl font-black uppercase md:text-5xl;
   }
 }
 
@@ -123,7 +127,7 @@
 /* MY OWN CLASSES */
 /* THIS CONTROLS TEXT HIGHLIGHTING */
 ::selection {
-  @apply bg-black-100 dark:bg-indigo-500 text-white;
+  @apply bg-black-100 text-white dark:bg-indigo-500;
 }
 
 .gradient-text {
@@ -137,7 +141,7 @@
     #ec4899,
     #eab308
   ); */
-  
+
   /* background: linear-gradient(
     to right,
     #6366f1,
@@ -157,8 +161,8 @@
     #6366f1,
     #4338ca,
     #6366f1
-    );
-    background-size: 500% 500%;
+  );
+  background-size: 500% 500%;
   background-clip: text;
 }
 
@@ -285,7 +289,6 @@
   background: var(--btn-color);
   color: coral
 } */
-
 
 /* FONTS CSS */
 /* @font-face {

@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 const DynamicGrid = dynamic(() => import("@/components/Grid"));
 const DynamicSubscribe = dynamic(() => import("@/components/SubscribeToUs"));
 const DynamicServices = dynamic(() => import("@/components/Services"));
+const DynamicServicesv2 = dynamic(() => import("@/components/Servicesv2"));
 
 export default function Home() {
   return (
@@ -12,13 +13,13 @@ export default function Home() {
         <Hero2 />
       </header>
       <main>
-        <section className="hidden dark:block">
+        {/* <section className="hidden dark:block">
           <DynamicGrid />
+        </section> */}
+        <section className="mt-12">
+          <DynamicServicesv2 />
         </section>
-        <section className="mt-40 dark:mt-0">
-          <DynamicServices />
-        </section>
-        <section className="relative mb-16 mt-12 border-b-2 border-t-2 md:mb-20 md:mt-40 md:rounded-3xl md:border-2 md:border-black-100 dark:md:border-white-100">
+        <section className="relative mt-12 border-b-2 border-t-2 md:mb-20 md:mt-40 md:rounded-3xl md:border-2 md:border-black-100">
           <DynamicSubscribe />
         </section>
       </main>

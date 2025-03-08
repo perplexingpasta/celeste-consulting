@@ -17,7 +17,7 @@ export const NavbarMobile = () => {
   const pathname = usePathname();
 
   return (
-    <div ref={ref} className="relative z-[1000]">
+    <div ref={ref} className="relative z-[1000] bg-white">
       <div className="absolute right-0 top-0 pt-4">
         <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       </div>
@@ -28,7 +28,7 @@ export const NavbarMobile = () => {
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "tween" }}
-            className="fixed left-0 top-0 z-[600] h-full w-2/3 bg-violet-300 pt-20 dark:bg-black-100 dark:bg-opacity-75 dark:backdrop-blur-2xl dark:backdrop-filter"
+            className="fixed left-0 top-0 z-[600] h-full w-2/3 bg-[#1f1f1f] pt-20"
           >
             {/* <div className="px-2">
               <ModeToggle />
@@ -41,7 +41,7 @@ export const NavbarMobile = () => {
                   <li key={`link=${idx}`} className="w-full rounded-lg">
                     <Link
                       onClick={() => setOpen((prev) => !prev)}
-                      className={`flex w-full items-center justify-between p-5 pt-5 uppercase tracking-widest ${isActive && navItem.link !== "/" ? "border-b-2 border-black-100 !font-bold dark:border-purpledark dark:!text-purple" : ""}`}
+                      className={`flex w-full items-center justify-between p-5 pt-5 uppercase tracking-widest ${isActive && navItem.link !== "/" ? "border-b-2 border-white-400 !font-bold" : ""}`}
                       href={navItem.link}
                     >
                       <span className="flex gap-1 text-lg font-medium text-white">
