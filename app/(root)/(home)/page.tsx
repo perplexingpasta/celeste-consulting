@@ -1,13 +1,9 @@
 import Hero2 from "@/components/Hero2";
 import dynamic from "next/dynamic";
 
-const DynamicGrid = dynamic(() => import("@/components/Grid"), { ssr: false });
-const DynamicSubscribe = dynamic(() => import("@/components/SubscribeToUs"), {
-  ssr: false,
-});
-const DynamicServices = dynamic(() => import("@/components/Services"), {
-  ssr: false,
-});
+const DynamicGrid = dynamic(() => import("@/components/Grid"));
+const DynamicSubscribe = dynamic(() => import("@/components/SubscribeToUs"));
+const DynamicServices = dynamic(() => import("@/components/Services"));
 
 export default function Home() {
   return (

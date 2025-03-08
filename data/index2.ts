@@ -1,10 +1,20 @@
+import { FiPhoneCall } from "react-icons/fi";
+import { GoBook, GoStar, GoHome, GoBriefcase } from "react-icons/go";
+
 export const navItems = [
-  { name: "home", link: "/" },
-  { name: "reviews", link: "/reviews" },
-  // { name: "why us", link: "/#testimonials" },
-  { name: "pricing", link: "/pricing" },
-  { name: "contact", link: "/contact" },
-  { name: "about us", link: "/" },
+  { name: "Home", link: "/", icon: GoHome },
+  { name: "Reviews", link: "/reviews", icon: GoStar },
+  { name: "Pricing", link: "/pricing", icon: GoBriefcase },
+  { name: "Contact", link: "/contact", icon: FiPhoneCall },
+  { name: "About Us", link: "/about", icon: GoBook },
+];
+
+export const navItemsFloatingNav = [
+  { name: "Home", link: "/" },
+  { name: "Reviews", link: "/reviews" },
+  { name: "Pricing", link: "/pricing" },
+  { name: "Contact", link: "/contact" },
+  { name: "About Us", link: "/about" },
 ];
 
 export const gridItems = [
@@ -26,8 +36,7 @@ export const gridItems = [
     title: "",
     description: "",
     //   className: "md:col-span-3 md:row-span-2",
-    className:
-      "md:col-span-3 md:row-span-4 lg:max-h-[42.2vh] md:max-h-[20vh]",
+    className: "md:col-span-3 md:row-span-4 lg:max-h-[42.2vh] md:max-h-[20vh]",
     imgClassName: "",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "",
@@ -39,7 +48,8 @@ export const gridItems = [
     id: 6,
     title: "Want to work together?",
     description: "",
-    className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-4 md:max-h-[20vh]",
+    className:
+      "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-4 md:max-h-[20vh]",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -74,7 +84,6 @@ export const services = [
   },
 ];
 
-
 export const testimonials = [
   {
     quote:
@@ -107,7 +116,6 @@ export const testimonials = [
     title: "Director of AlphaStream Technologies",
   },
 ];
-
 
 export const socialMedia = [
   {

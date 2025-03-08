@@ -4,9 +4,7 @@ import LitUpButton from "@/components/ui/LitUpButton";
 import dynamic from "next/dynamic";
 import PricingContainer from "@/components/PricingContainerv2";
 
-const DynamicFAQs = dynamic(() => import("@/components/PricingFAQv2shadcn"), {
-  ssr: false,
-});
+const DynamicFAQs = dynamic(() => import("@/components/PricingFAQv2shadcn"));
 
 export const metadata = {
   title: 'Pricing - Céleste Consulting'

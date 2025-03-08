@@ -13,10 +13,10 @@ import { usePathname } from "next/navigation";
 import { NavbarMobile } from "../NavbarMobile";
 
 export const FloatingNav3 = ({
-  navItems,
+  navItemsFloatingNav,
   className,
 }: {
-  navItems: {
+  navItemsFloatingNav: {
     name: string;
     link: string;
     icon?: JSX.Element;
@@ -70,7 +70,7 @@ export const FloatingNav3 = ({
             //   border: "1px solid rgba(255, 255, 255, 0.125)",
             // }}
           >
-            {navItems.map((navItem: any, idx: number) => {
+            {navItemsFloatingNav.map((navItem: any, idx: number) => {
               const isActive = pathname.startsWith(navItem.link);
 
               return (
@@ -78,7 +78,7 @@ export const FloatingNav3 = ({
                   key={`link=${idx}`}
                   href={navItem.link}
                   className={cn(
-                    `relative flex items-center font-semibold text-black-100 hover:text-violet-500 tracking-wider dark:font-normal dark:text-neutral-50 dark:hover:text-purple md:space-x-1 ${isActive && navItem.link !== "/" ? "border-b-2 border-black-100 !font-bold dark:border-purpledark dark:!text-purple" : ""}`,
+                    `relative p-2 flex items-center font-semibold text-black-100 hover:text-violet-500 tracking-wider dark:font-normal dark:text-neutral-50 dark:hover:text-purple md:space-x-1 ${isActive && navItem.link !== "/" ? "border-b-2 border-black-100 !font-bold dark:border-purpledark dark:!text-purple" : ""}`,
                   )}
                 >
                   <span className="block sm:hidden">{navItem.icon}</span>
@@ -88,9 +88,10 @@ export const FloatingNav3 = ({
                 </Link>
               );
             })}
-            <div className="z-[1000] hidden md:block">
+            {/* enable the following to enable light/dark mode switch */}
+            {/* <div className="z-[1000] hidden md:block">
               <ModeToggle />
-            </div>
+            </div> */}
           </motion.div>
         </AnimatePresence>
       </nav>

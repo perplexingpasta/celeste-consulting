@@ -47,16 +47,16 @@ export default function RootLayout({
           ></iframe>
         </noscript> */}
         {/* <GoogleTagManager gtmId="GTM-TXWG6KPV" /> */}
-        <CombinedProvider
+        {/* <CombinedProvider
           attribute="class"
-          defaultTheme="light"
+          // defaultTheme="light"
           enableSystem
           disableTransitionOnChange
-        >
-          {children}
-          {/* <Analytics />
+        > */}
+        {children}
+        {/* <Analytics />
           <SpeedInsights /> */}
-        </CombinedProvider>
+        {/* </CombinedProvider> */}
       </body>
     </html>
   );
