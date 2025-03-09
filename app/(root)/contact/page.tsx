@@ -58,7 +58,7 @@ const Contact = () => {
           Contact us
           <div className="relative mx-auto mt-1 w-[40vw] border-t-[5px] border-indigo-700 md:w-[24vw] md:border-t-[6px] lg:w-[12vw] lg:border-t-[7px]" />
         </h1>
-        <h2 className="relative mx-auto mb-8 max-w-[75%] items-center justify-center py-4 text-center text-base md:text-lg tracking-wide text-black-100 md:mb-16 xl:text-xl">
+        <h2 className="relative mx-auto mb-8 max-w-[75%] items-center justify-center py-4 text-center text-base tracking-wide text-black-100 md:mb-16 md:text-lg xl:text-xl">
           Will it be a call, an email, or a pigeon, perhaps?
         </h2>
       </header>
@@ -79,7 +79,7 @@ const Contact = () => {
           /> */}
           <h1 className="inline-block pl-3">
             Call Us
-            <div className="dark:border-white-100 relative w-[20vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="relative w-[20vw] border-t-[5px] border-black-200 opacity-50 md:w-[12vw] lg:w-[5vw]" />
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>
@@ -103,7 +103,7 @@ const Contact = () => {
           /> */}
           <h1 className="inline-block pl-2">
             WhatsApp
-            <div className="dark:border-white-100 relative w-[25vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="relative w-[25vw] border-t-[5px] border-black-200 opacity-50 md:w-[12vw] lg:w-[5vw]" />
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>
@@ -140,7 +140,7 @@ const Contact = () => {
           /> */}
           <h1 className="inline-block pl-2">
             Email Us
-            <div className="dark:border-white-100 relative w-[25vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="relative w-[25vw] border-t-[5px] border-black-200 opacity-50 md:w-[12vw] lg:w-[5vw]" />
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>
@@ -166,23 +166,23 @@ const Contact = () => {
           /> */}
           <h1 className="inline-block pl-2">
             Book A Meeting
-            <div className="dark:border-white-100 relative w-[40vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="relative w-[40vw] border-t-[5px] border-black-200 opacity-50 md:w-[12vw] lg:w-[5vw]" />
           </h1>
           <div className="ml-12 mt-2 text-base md:text-2xl">
             <a
               href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
               target="_blank"
             >
-              <div className="hidden dark:block md:-mt-8">
-                <MagicButton
-                  title="Book a meeting!"
+              <div className="block md:-mt-8 md:hidden">
+                <LitUpButton
+                  title="Get Started"
                   icon={<FaLocationArrow />}
                   position="right"
                 />
               </div>
-              <div className="block dark:hidden md:-mt-8">
-                <LitUpButton
-                  title="Book a meeting!"
+              <div className="hidden md:-mt-8 md:block">
+                <MagicButton
+                  title="Schedule Your Free Consultation"
                   icon={<FaLocationArrow />}
                   position="right"
                 />
@@ -206,7 +206,7 @@ const Contact = () => {
           /> */}
           <h1 className="inline-block pl-2">
             By a Pigeon
-            <div className="dark:border-white-100 relative w-[30vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="relative w-[30vw] border-t-[5px] border-black-200 opacity-50 md:w-[12vw] lg:w-[5vw]" />
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>Not supported at the moment</p>

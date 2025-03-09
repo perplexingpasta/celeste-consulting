@@ -34,6 +34,7 @@ const Pricing = () => {
           Simple, transparent pricing.
         </h2>
       </header>
+
       <main>
         <section className="relative -mt-20 flex items-center justify-center md:-mt-12">
           <PricingContainer />
@@ -43,7 +44,15 @@ const Pricing = () => {
             href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
             target="_blank"
           >
-            <div>
+            <div className="block md:hidden">
+              <LitUpButton
+                title="Get Started"
+                icon={<FaLocationArrow />}
+                position="right"
+                otherClasses="uppercase"
+              />
+            </div>
+            <div className="hidden md:block">
               <MagicButton
                 title="Get Started"
                 icon={<FaLocationArrow />}
