@@ -1,26 +1,23 @@
 "use client";
 import React from "react";
 
-import ScrollButton from "./ui/ScrollButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import LitUpButton from "./ui/LitUpButton";
-import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
 import { HeroHighlightDemo } from "./HeroHighlightDemo";
-import Link from "next/link";
 import dynamic from "next/dynamic";
+// import MagicButton from "./ui/MagicButton";
+// import { Spotlight } from "./ui/Spotlight";
+// import Link from "next/link";
 
-const DynamicScroll = dynamic(() => import("./ui/ScrollButton"), {
-  ssr: false,
-});
+const DynamicScroll = dynamic(() => import("./ui/ScrollButton"));
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-16 md:pt-36" id="hero">
+    <div className="px-5 pb-20 pt-16 md:pt-36" id="hero">
       <div className="relative z-10 my-5 flex justify-center md:my-12">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           {/* HERO BIG TEXT */}
-          <div className="mx-auto hidden max-w-5xl px-4 dark:block lg:mb-10">
+          {/* <div className="mx-auto hidden max-w-5xl px-4 dark:block lg:mb-10">
             <h1 className="mt-12 text-center text-4xl font-extrabold uppercase tracking-wide text-white md:text-5xl md:!leading-tight lg:text-6xl lg:!leading-snug">
               Medical Marketing <br className="hidden lg:block" /> to Grow your{" "}
               <br className="hidden lg:block" />
@@ -28,16 +25,16 @@ const Hero = () => {
                 Dermatology Practice
               </span>
             </h1>
-          </div>
-          <div className="mt-12 dark:hidden lg:mb-10">
+          </div> */}
+          <div className="mt-4 lg:mb-10">
             <HeroHighlightDemo />
           </div>
 
           {/* HI WE ARE */}
-          <p className="my-10 mt-32 text-center text-base text-black-100 md:text-lg md:tracking-wider lg:my-0 lg:mt-24 lg:text-xl">
+          <p className="my-10 mt-24 text-center text-base text-black-100 md:max-w-[80%] md:text-lg md:tracking-wider lg:my-0 lg:mt-24 lg:max-w-[70%] lg:text-xl">
             Welcome To <span className="font-semibold">Céleste Consulting</span>{" "}
             ✨
-            <br />
+            <br className="hidden lg:block" />
             <br /> We help Dermatologists with Consistent, Predictable & Loyal
             Patient Acquisition
           </p>
@@ -63,7 +60,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
         {/* SCROLLBUTTON */}
         <DynamicScroll />
       </div>

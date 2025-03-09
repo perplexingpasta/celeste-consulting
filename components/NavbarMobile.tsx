@@ -18,7 +18,7 @@ export const NavbarMobile = () => {
 
   return (
     <div ref={ref} className="relative z-[1000] bg-white">
-      <div className="absolute right-0 top-0 pt-4">
+      <div className="absolute right-0 top-0 pt-4 px-2">
         <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       </div>
       <AnimatePresence>

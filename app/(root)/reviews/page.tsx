@@ -18,17 +18,17 @@ const Reviews = () => {
             Reviews
           </span>
         </h1>
-        <h1 className="heading relative hidden dark:block">
+        {/* <h1 className="heading relative hidden dark:block">
           <span className="text-purple">Contact Us</span>
-        </h1>
-        <h2 className="relative mb-16 items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 dark:text-white xl:text-xl">
+        </h1> */}
+        <h2 className="relative mx-auto mb-16 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 xl:text-xl">
           What do our clients have to say about us?
         </h2>
       </header>
 
-      <main>
-        <section className="relative mb-12 text-2xl tracking-wide font-medium md:text-3xl">
-          <div className="md:ml-12 md:mt-2 mx-auto text-xl md:text-2xl">
+      <main className="mx-auto max-w-7xl pl-4 md:pl-0">
+        <section className="relative mb-12 text-2xl tracking-wide md:text-3xl">
+          <div className="mx-auto text-xl md:ml-12 md:mt-2 md:text-2xl">
             <p>
               Hey! 👋
               <br />

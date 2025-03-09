@@ -11,8 +11,9 @@ const DynamicWhatsapp = dynamic(() => import("@/components/Whatsapp"));
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <div className="relative mx-auto flex flex-col items-center justify-center overflow-clip bg-white px-5 dark:bg-black-100 sm:px-10">
-        <div className="w-full max-w-7xl">
+      <div className="relative mx-auto flex flex-col items-center justify-center overflow-clip bg-white">
+        <div className="w-full">
+        {/* <div className="w-full max-w-7xl"> */}
           <FloatingNav3 navItemsFloatingNav={navItemsFloatingNav} />
           <GridAndDotBg />
           {children}
@@ -20,7 +21,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <DynamicWhatsapp />
         </div>
       </div>
-      <footer className="bg-black dark:bg-black-100">
+      <footer className="bg-black-100">
         <DynamicFooter />
       </footer>
     </>

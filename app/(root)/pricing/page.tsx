@@ -7,12 +7,12 @@ import PricingContainer from "@/components/PricingContainerv2";
 const DynamicFAQs = dynamic(() => import("@/components/PricingFAQv2shadcn"));
 
 export const metadata = {
-  title: 'Pricing - Céleste Consulting'
+  title: "Pricing - Céleste Consulting",
 };
 
 const Pricing = () => {
   return (
-    <div className="pt-12 md:pt-[6.5rem]" id="pricing">
+    <div className="mx-auto max-w-7xl pt-12 md:pt-[6.5rem]" id="pricing">
       {/* <header>
         <h1 className="heading relative pt-4 !normal-case">
           Everything you need for{" "}
@@ -31,20 +31,20 @@ const Pricing = () => {
             href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
             target="_blank"
           >
-            <div className="hidden dark:block">
+            <div>
               <MagicButton
-                title="Let's get in touch"
+                title="Get Started"
                 icon={<FaLocationArrow />}
                 position="right"
               />
             </div>
-            <div className="block dark:hidden">
+            {/* <div className="block dark:hidden">
               <LitUpButton
-                title="Let's get in touch"
+                title="Get Started"
                 icon={<FaLocationArrow />}
                 position="right"
               />
-            </div>
+            </div> */}
           </a>
         </section>
 
@@ -54,10 +54,10 @@ const Pricing = () => {
               Frequently Asked Questions
             </span>
           </h1>
-          <h1 className="heading relative hidden !font-extrabold dark:block">
+          {/* <h1 className="heading relative hidden !font-extrabold dark:block">
             <span className="text-purple">Frequently Asked Questions</span>
-          </h1>
-          <div className="relative my-10 md:mb-20 lg:mt-20">
+          </h1> */}
+          <div className="relative mx-auto my-10 max-w-[90%] md:mb-20 lg:mt-20">
             <DynamicFAQs />
           </div>
         </section>

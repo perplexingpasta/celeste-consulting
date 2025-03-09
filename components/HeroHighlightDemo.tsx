@@ -18,11 +18,11 @@ export function HeroHighlightDemo() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="mx-auto max-w-4xl px-4 text-center text-2xl text-[40px] font-black uppercase leading-snug md:leading-relaxed tracking-wide text-black-100 dark:text-white md:text-5xl lg:max-w-6xl lg:text-6xl lg:leading-snug"
+        className="mx-auto max-w-4xl px-4 text-center text-2xl text-[40px] font-black uppercase leading-snug tracking-wide text-black-100 md:text-5xl md:max-w-[95%]  md:leading-relaxed lg:max-w-6xl lg:text-6xl lg:leading-snug"
       >
         Medical Marketing <br className="hidden lg:block" /> to Grow Your{" "}
         <br className="hidden lg:block" />{" "}
-        <Highlight className="text-black-100 dark:text-white">
+        <Highlight className="text-black-100">
           Dermatology Practice
         </Highlight>
       </motion.h1>

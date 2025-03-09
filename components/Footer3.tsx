@@ -36,7 +36,7 @@ const Footer = () => {
     ],
   };
   return (
-    <div className="relative mx-auto mt-20 bg-black-100 flex max-w-[85rem] flex-col items-center justify-center overflow-clip px-5 pt-10 text-white sm:px-10 lg:pt-20">
+    <div className="relative mx-auto mt-20 flex max-w-[85rem] flex-col items-center justify-center overflow-clip bg-black-100 px-5 pt-10 text-white sm:px-10 lg:pt-20">
       <div className="relative w-full pb-10 font-lexendDeca" id="footer">
         {/* <div className="absolute left-0 top-0 flex h-[20rem] w-full items-center justify-center bg-white bg-grid-black/[0.05] dark:bg-black-100 dark:bg-grid-white/[0.05]">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className="relative flex flex-col lg:flex-1 lg:flex-row">
           <div className="flex items-center align-middle">
-            <Link href="/" className="flex group items-center gap-x-4">
+            <Link href="/" className="group flex items-center gap-x-4">
               <Image
                 src="/images/celeste logo.png"
                 width={250}
@@ -53,10 +53,12 @@ const Footer = () => {
                 alt="Logo of celeste consulting"
               />
               <div className="mx-auto lg:max-w-[20vw]">
-                <p className="text-lg md:text-2xl xl:text-3xl font-bold lg:mb-2">céleste consulting</p>
-                <p className="md:text-xl font-light opacity-75">
+                <p className="text-lg font-bold md:text-2xl lg:mb-2 xl:text-3xl">
+                  céleste consulting
+                </p>
+                <p className="text-sm font-light opacity-75 md:text-xl">
                   Helping Dermatologists with{" "}
-                  <span className="group-hover:text-purple transition-all">
+                  <span className="transition-all group-hover:text-purple">
                     Consistent, Predictable & Loyal
                   </span>{" "}
                   Patient Acquisition
@@ -139,7 +141,7 @@ const Footer = () => {
             </a>
           </p> */}
 
-          <p className="text-sm font-light md:text-base lg:font-normal">
+          <p className="text-xs text-indigo-300 opacity-75 md:text-base lg:font-normal">
             Céleste Consulting &copy; 2025{" "}
             <Link href="/" className="!cursor-pointer hover:text-purple">
               {" "}

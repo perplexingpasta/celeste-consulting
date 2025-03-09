@@ -6,7 +6,7 @@ export const navItems = [
   { name: "Reviews", link: "/reviews", icon: GoStar },
   { name: "Pricing", link: "/pricing", icon: GoBriefcase },
   { name: "Contact", link: "/contact", icon: FiPhoneCall },
-  { name: "About Us", link: "/about", icon: GoBook },
+  { name: "About Us", link: "/", icon: GoBook },
 ];
 
 export const navItemsFloatingNav = [
@@ -14,7 +14,7 @@ export const navItemsFloatingNav = [
   { name: "Reviews", link: "/reviews" },
   { name: "Pricing", link: "/pricing" },
   { name: "Contact", link: "/contact" },
-  { name: "About Us", link: "/about" },
+  { name: "About Us", link: "/" },
 ];
 
 export const gridItems = [

@@ -6,7 +6,7 @@ import MagicButton from "@/components/ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 
 export const metadata = {
-  title: 'Contact Us - Céleste Consulting'
+  title: "Contact Us - Céleste Consulting",
 };
 
 const Contact = () => {
@@ -43,30 +43,12 @@ const Contact = () => {
         <h1 className="heading relative hidden dark:block">
           <span className="text-purple">Contact Us</span>
         </h1>
-        <h2 className="relative mb-16 items-center justify-center py-4 text-center text-lg font-light text-black-100 dark:text-white">
+        <h2 className="relative mx-auto mb-16 max-w-[90%] items-center justify-center py-4 text-center text-lg font-light text-black-100">
           Here are all the ways you can get in touch with us!
         </h2>
       </header>
 
-      <main>
-        {/* <section className="relative mb-12 text-3xl font-semibold tracking-wide">
-          <h1 className="pb-6 md:pb-0">
-            Book A Meeting
-            <div className="relative w-[50vw] border-t-[5px] border-black-200 dark:border-white-100 md:w-[17vw] lg:w-[12vw]"></div>
-          </h1>
-          <div
-            className="calendly-inline-widget"
-            style={{ minWidth: "320px", height: "700px" }}
-            data-url="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting?hide_gdpr_banner=1"
-          >
-            <script
-              type="text/javascript"
-              src="https://assets.calendly.com/assets/external/widget.js"
-              async
-            ></script>
-          </div>
-        </section> */}
-
+      <main className="mx-auto max-w-[90%] md:max-w-7xl md:pl-8">
         <section className="relative mb-12 text-2xl font-semibold tracking-wide md:text-3xl">
           <img
             src="/images/call-black.svg"
@@ -82,7 +64,7 @@ const Contact = () => {
           />
           <h1 className="inline-block pl-3">
             Call Us
-            <div className="relative w-[20vw] border-t-[5px] border-black-200 dark:border-white-100 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="dark:border-white-100 relative w-[20vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>
@@ -106,7 +88,7 @@ const Contact = () => {
           />
           <h1 className="inline-block pl-2">
             WhatsApp
-            <div className="relative w-[25vw] border-t-[5px] border-black-200 dark:border-white-100 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="dark:border-white-100 relative w-[25vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>
@@ -129,7 +111,7 @@ const Contact = () => {
         </section>
 
         <section className="relative mb-12 text-2xl font-semibold tracking-wide md:text-3xl">
-        <img
+          <img
             src="/images/email-black.svg"
             width={40}
             alt=""
@@ -143,7 +125,7 @@ const Contact = () => {
           />
           <h1 className="inline-block pl-2">
             Email Us
-            <div className="relative w-[25vw] border-t-[5px] border-black-200 dark:border-white-100 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="dark:border-white-100 relative w-[25vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>
@@ -155,7 +137,7 @@ const Contact = () => {
         </section>
 
         <section className="relative mb-12 text-2xl font-semibold tracking-wide md:text-3xl">
-        <img
+          <img
             src="/images/meeting-black.svg"
             width={40}
             alt=""
@@ -169,7 +151,7 @@ const Contact = () => {
           />
           <h1 className="inline-block pl-2">
             Book A Meeting
-            <div className="relative w-[40vw] border-t-[5px] border-black-200 dark:border-white-100 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="dark:border-white-100 relative w-[40vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
           </h1>
           <div className="ml-12 mt-2 text-base md:text-2xl">
             <a
@@ -195,7 +177,7 @@ const Contact = () => {
         </section>
 
         <section className="relative mb-12 text-2xl font-semibold tracking-wide md:text-3xl">
-        <img
+          <img
             src="/images/bird-black.svg"
             width={40}
             alt=""
@@ -209,7 +191,7 @@ const Contact = () => {
           />
           <h1 className="inline-block pl-2">
             By a Pigeon
-            <div className="relative w-[30vw] border-t-[5px] border-black-200 dark:border-white-100 md:w-[12vw] lg:w-[5vw]"></div>
+            <div className="dark:border-white-100 relative w-[30vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
             <p>Not supported at the moment :&apos;&#40;</p>
