@@ -100,6 +100,13 @@ poppins font ✅
 added more FAQs ✅
 replaced services page with reviews page ✅
 navbar page animation like drvarunagarwal
+
+copy endpage cta from varun to celeste ✅
+fix titles in website ✅
+meta title like this - "Céleste Consulting | Reviews & Testimonials ",
+3quarters indigo700 underline under titles
+fix pricing page md view
+
 gsap
 recreate pricing page in jsx
 about page

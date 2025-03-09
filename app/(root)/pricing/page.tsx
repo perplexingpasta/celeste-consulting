@@ -4,15 +4,18 @@ import LitUpButton from "@/components/ui/LitUpButton";
 import dynamic from "next/dynamic";
 import PricingContainer from "@/components/PricingContainerv2";
 
+const DynamicWannaKnowMore = dynamic(
+  () => import("@/components/WannaKnowMore"),
+);
 const DynamicFAQs = dynamic(() => import("@/components/PricingFAQv2shadcn"));
 
 export const metadata = {
-  title: "Pricing - Céleste Consulting",
+  title: "Céleste Consulting | Pricing",
 };
 
 const Pricing = () => {
   return (
-    <div className="mx-auto max-w-7xl pt-12 md:pt-[6.5rem]" id="pricing">
+    <div className="mx-auto max-w-7xl" id="pricing">
       {/* <header>
         <h1 className="heading relative pt-4 !normal-case">
           Everything you need for{" "}
@@ -22,8 +25,17 @@ const Pricing = () => {
           service
         </h1>
       </header> */}
+      <header id="pricing" className="pt-24 md:pt-40">
+        <h1 className="headingv2 relative">
+          Pricing
+          <div className="relative mx-auto mt-1 w-[25vw] border-t-[5px] border-indigo-700 md:w-[16vw] md:border-t-[6px] lg:w-[7vw] lg:border-t-[7px]" />
+        </h1>
+        <h2 className="relative mx-auto mb-16 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 xl:text-xl">
+          Simple, transparent pricing.
+        </h2>
+      </header>
       <main>
-        <section className="relative flex items-center justify-center pt-10">
+        <section className="relative -mt-20 flex items-center justify-center md:-mt-12">
           <PricingContainer />
         </section>
         <section className="mt-10 flex flex-col items-center justify-center">
@@ -60,6 +72,9 @@ const Pricing = () => {
           <div className="relative mx-auto my-10 max-w-[90%] md:mb-20 lg:mt-20">
             <DynamicFAQs />
           </div>
+        </section>
+        <section className="md:mb-8 lg:mb-12">
+          <DynamicWannaKnowMore />
         </section>
       </main>
     </div>

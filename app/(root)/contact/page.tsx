@@ -4,9 +4,14 @@ import React from "react";
 import LitUpButton from "@/components/ui/LitUpButton";
 import MagicButton from "@/components/ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import dynamic from "next/dynamic";
+
+const DynamicWannaKnowMore = dynamic(
+  () => import("@/components/WannaKnowMore"),
+);
 
 export const metadata = {
-  title: "Contact Us - Céleste Consulting",
+  title: "Céleste Consulting | Contact Us",
 };
 
 const Contact = () => {
@@ -34,7 +39,7 @@ const Contact = () => {
 
   return (
     <>
-      <header id="contact" className="pt-40">
+      {/* <header id="contact" className="pt-40">
         <h1 className="heading relative block dark:hidden">
           <span className="relative inline-block rounded-lg bg-gradient-to-r from-indigo-500 to-purple px-3 py-2 text-white">
             Contact Us
@@ -46,6 +51,16 @@ const Contact = () => {
         <h2 className="relative mx-auto mb-16 max-w-[90%] items-center justify-center py-4 text-center text-lg font-light text-black-100">
           Here are all the ways you can get in touch with us!
         </h2>
+      </header> */}
+
+      <header id="contact" className="pt-24 md:pt-40">
+        <h1 className="headingv2 relative">
+          Contact us
+          <div className="relative mx-auto mt-1 w-[40vw] border-t-[5px] border-indigo-700 md:w-[24vw] md:border-t-[6px] lg:w-[12vw] lg:border-t-[7px]" />
+        </h1>
+        <h2 className="relative mx-auto mb-8 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 md:mb-16 xl:text-xl">
+          Will it be a call, an email, or a pigeon, perhaps?
+        </h2>
       </header>
 
       <main className="mx-auto max-w-[90%] md:max-w-7xl md:pl-8">
@@ -56,12 +71,12 @@ const Contact = () => {
             alt=""
             className="inline-block dark:hidden"
           />
-          <img
+          {/* <img
             src="/images/call-white.svg"
             width={40}
             alt=""
             className="hidden dark:inline-block"
-          />
+          /> */}
           <h1 className="inline-block pl-3">
             Call Us
             <div className="dark:border-white-100 relative w-[20vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
@@ -80,12 +95,12 @@ const Contact = () => {
             alt=""
             className="inline-block dark:hidden"
           />
-          <img
+          {/* <img
             src="/images/whatsapp-white.svg"
             width={40}
             alt=""
             className="hidden dark:inline-block"
-          />
+          /> */}
           <h1 className="inline-block pl-2">
             WhatsApp
             <div className="dark:border-white-100 relative w-[25vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
@@ -117,12 +132,12 @@ const Contact = () => {
             alt=""
             className="inline-block dark:hidden"
           />
-          <img
+          {/* <img
             src="/images/email-white.svg"
             width={40}
             alt=""
             className="hidden dark:inline-block"
-          />
+          /> */}
           <h1 className="inline-block pl-2">
             Email Us
             <div className="dark:border-white-100 relative w-[25vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
@@ -143,12 +158,12 @@ const Contact = () => {
             alt=""
             className="inline-block dark:hidden"
           />
-          <img
+          {/* <img
             src="/images/meeting-white.svg"
             width={40}
             alt=""
             className="hidden dark:inline-block"
-          />
+          /> */}
           <h1 className="inline-block pl-2">
             Book A Meeting
             <div className="dark:border-white-100 relative w-[40vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
@@ -183,19 +198,22 @@ const Contact = () => {
             alt=""
             className="inline-block dark:hidden"
           />
-          <img
+          {/* <img
             src="/images/bird-white.svg"
             width={40}
             alt=""
             className="hidden dark:inline-block"
-          />
+          /> */}
           <h1 className="inline-block pl-2">
             By a Pigeon
             <div className="dark:border-white-100 relative w-[30vw] border-t-[5px] border-black-200 md:w-[12vw] lg:w-[5vw]"></div>
           </h1>
           <div className="ml-12 mt-2 space-y-2 text-xl md:text-2xl">
-            <p>Not supported at the moment :&apos;&#40;</p>
+            <p>Not supported at the moment</p>
           </div>
+        </section>
+        <section className="md:mb-8 lg:mb-12 lg:mt-16">
+          <DynamicWannaKnowMore />
         </section>
       </main>
     </>

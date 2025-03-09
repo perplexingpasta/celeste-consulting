@@ -1,27 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
 // "use client";
 import React from "react";
-import LitUpButton from "@/components/ui/LitUpButton";
-import MagicButton from "@/components/ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import dynamic from "next/dynamic";
+// import LitUpButton from "@/components/ui/LitUpButton";
+// import MagicButton from "@/components/ui/MagicButton";
+// import { FaLocationArrow } from "react-icons/fa6";
+
+const DynamicWannaKnowMore = dynamic(
+  () => import("@/components/WannaKnowMore"),
+);
 
 export const metadata = {
-  title: "Reviews - Céleste Consulting",
+  title: "Céleste Consulting | Reviews & Testimonials",
 };
 
 const Reviews = () => {
   return (
     <>
-      <header id="contact" className="pt-40">
-        <h1 className="heading relative block dark:hidden">
-          <span className="relative inline-block rounded-lg bg-gradient-to-r from-indigo-500 to-purple px-3 py-2 text-white">
-            Reviews
-          </span>
+      <header id="reviews" className="pt-24 md:pt-40">
+        <h1 className="headingv2 relative">
+          Testimonials
+          <div className="relative mx-auto mt-1 w-[50vw] border-t-[5px] border-indigo-700 md:w-[24vw] md:border-t-[6px]   lg:border-t-[7px] lg:w-[12vw]" />
         </h1>
         {/* <h1 className="heading relative hidden dark:block">
           <span className="text-purple">Contact Us</span>
         </h1> */}
-        <h2 className="relative mx-auto mb-16 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 xl:text-xl">
+        <h2 className="relative mx-auto mb-8 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 md:mb-16 xl:text-xl">
           What do our clients have to say about us?
         </h2>
       </header>
@@ -50,6 +54,9 @@ const Reviews = () => {
               Ciao ✨
             </p>
           </div>
+        </section>
+        <section className="md:mb-8 lg:mb-12">
+          <DynamicWannaKnowMore />
         </section>
       </main>
     </>

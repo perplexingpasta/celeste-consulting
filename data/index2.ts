@@ -3,7 +3,7 @@ import { GoBook, GoStar, GoHome, GoBriefcase } from "react-icons/go";
 
 export const navItems = [
   { name: "Home", link: "/", icon: GoHome },
-  { name: "Reviews", link: "/reviews", icon: GoStar },
+  { name: "Reviews", link: "/testimonials", icon: GoStar },
   { name: "Pricing", link: "/pricing", icon: GoBriefcase },
   { name: "Contact", link: "/contact", icon: FiPhoneCall },
   { name: "About Us", link: "/", icon: GoBook },
@@ -11,7 +11,7 @@ export const navItems = [
 
 export const navItemsFloatingNav = [
   { name: "Home", link: "/" },
-  { name: "Reviews", link: "/reviews" },
+  { name: "Reviews", link: "/testimonials" },
   { name: "Pricing", link: "/pricing" },
   { name: "Contact", link: "/contact" },
   { name: "About Us", link: "/" },
