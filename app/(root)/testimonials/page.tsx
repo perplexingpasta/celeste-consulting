@@ -20,12 +20,12 @@ const Reviews = () => {
       <header id="reviews" className="pt-24 md:pt-40">
         <h1 className="headingv2 relative">
           Testimonials
-          <div className="relative mx-auto mt-1 w-[50vw] border-t-[5px] border-indigo-700 md:w-[24vw] md:border-t-[6px]   lg:border-t-[7px] lg:w-[12vw]" />
+          <div className="relative mx-auto mt-1 w-[50vw] border-t-[5px] border-indigo-700 md:w-[24vw] md:border-t-[6px] lg:w-[12vw] lg:border-t-[7px]" />
         </h1>
         {/* <h1 className="heading relative hidden dark:block">
           <span className="text-purple">Contact Us</span>
         </h1> */}
-        <h2 className="relative mx-auto mb-8 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 md:mb-16 xl:text-xl">
+        <h2 className="relative mx-auto mb-8 max-w-[75%] items-center justify-center py-4 text-center text-base tracking-wide text-black-100 md:mb-16 md:text-lg xl:text-xl">
           What do our clients have to say about us?
         </h2>
       </header>

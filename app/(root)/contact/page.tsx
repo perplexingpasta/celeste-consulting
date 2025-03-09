@@ -58,7 +58,7 @@ const Contact = () => {
           Contact us
           <div className="relative mx-auto mt-1 w-[40vw] border-t-[5px] border-indigo-700 md:w-[24vw] md:border-t-[6px] lg:w-[12vw] lg:border-t-[7px]" />
         </h1>
-        <h2 className="relative mx-auto mb-8 max-w-[90%] items-center justify-center py-4 text-center text-lg tracking-wide text-black-100 md:mb-16 xl:text-xl">
+        <h2 className="relative mx-auto mb-8 max-w-[75%] items-center justify-center py-4 text-center text-base md:text-lg tracking-wide text-black-100 md:mb-16 xl:text-xl">
           Will it be a call, an email, or a pigeon, perhaps?
         </h2>
       </header>
