@@ -309,7 +309,8 @@ const PricingContainer = () => {
                     <PricingUnit name="Active Outreach to Attract New Patients" />
                     <PricingUnit name="Facebook + Instagram + Google Ads" />
                     {/* <PricingUnit name="Complete Photography & Videography of your Practice" /> */}
-                    <PricingUnit name="Lead Nurturing" />
+                    <PricingUnit name="Golden Lead Nurturing" />
+                    <PricingUnit name="Social Media Profile Management" />
                     <PricingUnit name="Custom Digital Business Card" />
                     <PricingUnit name="7 Business Emails" />
                     <PricingUnit name="Monthly Strategy Meetings" />

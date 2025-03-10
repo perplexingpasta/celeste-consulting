@@ -1,9 +1,10 @@
 // import { SpeedInsights } from "@vercel/speed-insights/next";
 // import { Analytics } from "@vercel/analytics/react";
+// import { CombinedProvider } from "./provider";
 import type { Metadata } from "next";
 import "./globals.css";
-import { CombinedProvider } from "./provider";
 import { Poppins } from "next/font/google";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -37,6 +38,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-45WSTM6YR0"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-45WSTM6YR0');
+            `,
+          }}
+        />
+      </head>
       <body className={poppins.className}>
         {/* <noscript>
           <iframe
