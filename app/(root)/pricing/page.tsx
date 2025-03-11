@@ -69,7 +69,7 @@ const Pricing = () => {
           </a>
         </section>
 
-        <section className="relative mt-20 md:mt-40">
+        <section className="relative mt-20 md:mt-40 lg:mt-32">
           {/* <h1 className="heading relative block !font-extrabold dark:hidden">
             <span className="relative inline-block rounded-lg bg-gradient-to-r from-indigo-500 to-purple px-3 py-2 text-white">
               Frequently Asked Questions
@@ -81,7 +81,7 @@ const Pricing = () => {
           <h1 className="text-center text-2xl font-black uppercase md:text-5xl">
             Frequently Asked Questions
           </h1>
-          <div className="mx-auto mb-10 mt-4 max-w-[90%] md:mb-20 lg:mt-20">
+          <div className="mx-auto mb-10 mt-4 max-w-[90%] md:mb-20 lg:mt-12">
             <DynamicFAQs />
           </div>
         </section>

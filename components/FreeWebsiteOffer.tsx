@@ -1,8 +1,8 @@
-import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./ui/MagicButton";
 import React from "react";
-import Image from "next/image";
+import { FaLocationArrow } from "react-icons/fa6";
 import MagicButtonv2 from "./MagicButtonv2";
+// import MagicButton from "./ui/MagicButton";
+import Image from "next/image";
 
 const HeroCall = () => {
   return (
@@ -29,8 +29,8 @@ const HeroCall = () => {
           </p>
           <br />
           <div className="space-y-2">
-            <p>✦ Worth over ₹52,000</p>
-            <p>✦ Specifically Built for Dermatological Practice</p>
+            <p>✦ Worth over ₹64,000</p>
+            <p>✦ Specifically Built for Dermatological Practices</p>
             <p>✦ Designed to Convert Visitors into Loyal Patients</p>
             <p>✦ Tailored to Prioritize Patient&apos;s Needs</p>
             {/* <p>

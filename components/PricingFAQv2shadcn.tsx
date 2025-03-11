@@ -13,8 +13,9 @@ const PricingFAQv2shadcn = () => {
           What is a patient acquisition agency?
         </AccordionTrigger>
         <AccordionContent className="mb-4 text-sm font-normal leading-relaxed text-gray-700 dark:text-white md:text-lg lg:text-lg">
-          In simple terms, a patient acquisition agency gets you more patients
-          reliably and helps you scale your practice.
+          In simple terms, a{" "}
+          <span className="font-bold">patient acquisition agency</span> gets you
+          more patients reliably and helps you scale your practice.
           <br /> To be more precise, we do everything from capturing interested
           leads looking for a dermatologist in their city and nurture them so
           that they actually book an appointment with you and become life-long
@@ -45,6 +46,23 @@ const PricingFAQv2shadcn = () => {
 
       <AccordionItem value="item-3">
         <AccordionTrigger className="md:text-lg lg:text-xl">
+          Is this price inclusive of your fee?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
+          Yes it is.
+          <br />
+          We operate on a retainer model. That means per month, based on the
+          suite you select, we charge you a fixed amount with no hidden or
+          overhead charges.{" "}
+          <span className="font-bold">This includes everything</span> — ad
+          spend, building a website, all our other services (depending on the
+          suite) and our own fee as well. You don&apos;t ever have to pay
+          another penny on top of this. Promise!
+        </AccordionContent>
+      </AccordionItem>
+
+      <AccordionItem value="item-4">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
           Are there any hidden charges?
         </AccordionTrigger>
         <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
@@ -52,14 +70,46 @@ const PricingFAQv2shadcn = () => {
           <br />
           We operate on a retainer model. That means per month, based on the
           suite you select, we charge you a fixed amount with no hidden or
-          overhead charges. This includes everything — ad spend, building a
-          website, all our other services (depending on the suite) and our own
-          fee as well. You don&apos;t ever have to pay another penny on top of
-          this. Promise!
+          overhead charges.{" "}
+          <span className="font-bold">This includes everything</span> — ad
+          spend, building a website, all our other services (depending on the
+          suite) and our own fee as well. You don&apos;t ever have to pay
+          another penny on top of this. Promise!
         </AccordionContent>
       </AccordionItem>
 
-      <AccordionItem value="item-4">
+      <AccordionItem value="item-5">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          How do you increase Google Reviews? Are they fake?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
+          The Google Reviews are <span className="font-bold">genuine</span> &
+          not fake.
+          <br />
+          We believe in procuring reviews for your dermatology practice
+          organically.
+          <br />
+          <br />
+          What that means:
+          <br />- We don&apos;t have a bunch of Google accounts from which we
+          give you 5 stars <br /> - We don&apos;t pay people to give you fake
+          reviews
+          <br />- Instead, we launch{" "}
+          <span className="font-bold">DB-Reactivation Campaigns</span> for your
+          older patients to give you a good review
+          <br />- For the newer patients, we teach you proven methods to get{" "}
+          <span className="font-bold">authentic reviews</span> from satisfied
+          patients
+          <br />
+          <br />
+          This strategy does take some time to yield results. But, once it does,
+          the results are phenomenal! <br /> Your Google credibility will shoot
+          up, your clinic will get discovered more easily and you&apos;ll notice
+          an increased influx of patients daily.
+        </AccordionContent>
+      </AccordionItem>
+
+      {/* <AccordionItem value="item-4">
         <AccordionTrigger className="md:text-lg lg:text-xl">
           How do you guarantee results?
         </AccordionTrigger>
@@ -70,31 +120,32 @@ const PricingFAQv2shadcn = () => {
           of your older patients. Since this is marketing, it takes time to show
           powerful results and its effect only compounds over time.
         </AccordionContent>
-      </AccordionItem>
+      </AccordionItem> */}
 
-      <AccordionItem value="item-5">
+      <AccordionItem value="item-6">
         <AccordionTrigger className="md:text-lg lg:text-xl">
           What are business emails?
         </AccordionTrigger>
         <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
-          Business emails are essential for your profession. They are made from
-          your website domain so if you get dradamsmith.com as your domain for
-          your website, you can have &quot;help@dradamsmith.com&quot; or
+          Business emails are essential for a profession. <br /> They are made
+          from your website domain so if you get dradamsmith.com as your domain
+          for your website, you can have &quot;help@dradamsmith.com&quot; or
           &quot;support@dradamsmith.com&quot; as your emails. In our case, we
-          have <strong>hello@celesteconsulting.in</strong>. You don&apos;t need
-          to make a new email account, we&apos;ll simply forward all incoming
-          emails to your personal email which can be your gmail account. As a
-          result, you get to receive all your emails in the same inbox.
+          have <span className="font-bold">hello@celesteconsulting.in</span>.{" "}
+          <br />
+          You don&apos;t need to make a new email account, we&apos;ll simply
+          forward all incoming emails to your personal email which can be your
+          gmail account. As a result, you get to receive all your emails in the
+          same inbox.
         </AccordionContent>
       </AccordionItem>
 
-      <AccordionItem value="item-6">
+      <AccordionItem value="item-7">
         <AccordionTrigger className="md:text-lg lg:text-xl">
           What features will I get in the website?
         </AccordionTrigger>
         <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
-          All our websites will at least have the following features:
-          <br />
+          All our websites have these features:
           <br />
           <ul>
             <li>+ Domain</li>
@@ -116,7 +167,7 @@ const PricingFAQv2shadcn = () => {
         </AccordionContent>
       </AccordionItem>
 
-      <AccordionItem value="item-7">
+      <AccordionItem value="item-8">
         <AccordionTrigger className="md:text-lg lg:text-xl">
           What are strategy meetings?
         </AccordionTrigger>
@@ -132,6 +183,19 @@ const PricingFAQv2shadcn = () => {
           can have the peace of mind that everything is going well and according
           to plan. We also talk about which ads are performing well and where we
           should focus our efforts for best optimization and efficiency.
+        </AccordionContent>
+      </AccordionItem>
+
+      <AccordionItem value="item-9">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          Will you work with my local competition as well?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
+          To give you a <span className="font-bold">best-in-class service</span>
+          , we refuse to work with your competition located in the vicinity of
+          your dermatology practice. As a result, our ads perform better, your
+          profile on Google Maps stands out and thus, you are favored by the
+          patients.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
