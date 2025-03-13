@@ -1,5 +1,6 @@
 import Hero2 from "@/components/Hero2";
 import dynamic from "next/dynamic";
+import Popup from "../../../components/Popup";
 
 const DynamicServicesv2 = dynamic(() => import("@/components/Servicesv2"));
 const DynamicHeroCall = dynamic(() => import("@/components/HeroCall"));
@@ -14,6 +15,9 @@ export default function Home() {
   return (
     <>
       <main>
+        <aside>
+          <Popup />
+        </aside>
         <section>
           <Hero2 />
         </section>

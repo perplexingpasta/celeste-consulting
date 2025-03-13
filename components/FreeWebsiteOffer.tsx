@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const HeroCall = () => {
   return (
-    <div className="relative mt-24 flex flex-col bg-gray-200 p-4 md:p-8 lg:mx-auto lg:mb-12 lg:w-full lg:flex-row-reverse lg:items-center lg:justify-center lg:space-x-16 lg:p-10 lg:px-16">
+    <div id="free-website-offer" className="relative mt-24 flex flex-col bg-gray-200 p-4 md:p-8 lg:mx-auto lg:mb-12 lg:w-full lg:flex-row-reverse lg:items-center lg:justify-center lg:space-x-16 lg:p-10 lg:px-16">
       <h1 className="text-center text-2xl font-black text-red-500">
         *** LIMITED TIME OFFER ***
       </h1>
