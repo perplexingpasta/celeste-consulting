@@ -16,7 +16,7 @@ const PricingContainer = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <Group sx={{ zIndex: 50 }}>
+      <Group sx={{ zIndex: 30 }}>
         <Stack spacing={20}>
           {/** header section */}
 
