@@ -103,16 +103,17 @@ const Popup: React.FC = () => {
           {/* &times; */}
           <IoCloseSharp className="md:text-lg" />
         </button>
-        <h1 className="mb-6 bg-gradient-to-r from-indigo-800 to-indigo-500 p-2 px-4 text-center text-xl font-bold uppercase tracking-wide text-white opacity-75 md:p-3 md:px-5 md:text-4xl">
+        <h1 className="mb-6 bg-gradient-to-r from-indigo-900 to-indigo-400 p-2 px-4 text-center text-xl font-bold uppercase tracking-wide text-white opacity-75 md:p-3 md:px-5 md:text-4xl">
           ~ Free Website ~
         </h1>
-        <p className="text-center text-lg md:text-2xl">
-          For a limited time, <br />
+        <p className="text-center text-lg md:text-2xl lg:text-xl lg:leading-relaxed">
+          For a limited time, <br className="lg:hidden" />
           we&apos;re offering our <br />
           <span className="font-bold">
-            Patient-Oriented <br /> Medical Website
+            Patient-Oriented <br className="lg:hidden" /> Medical Website
           </span>{" "}
-          for <br /> your dermatology practice, <br /> absolutely for FREE!
+          for <br className="lg:hidden" /> your dermatology practice, <br />{" "}
+          absolutely for FREE!
         </p>
         {/* <br /> */}
         {/* Get a <span className="text-xl font-extrabold ">FREE</span> <br />

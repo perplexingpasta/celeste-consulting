@@ -106,6 +106,14 @@ fix titles in website ✅
 meta title like this - "Céleste Consulting | Reviews & Testimonials" ✅
 3quarters indigo700 underline under titles ✅
 
+rm -rf exit intent in phone view ✅
+remove the 70% from the lead nurturing point ✅
+ad management & medical marketing -> just medical marketing ✅
+email marketing -> WhatsApp outreach ✅
+ooh and make t3 74,997 ✅
+make free website offer smaller in lg view ✅
+cc.in text highlight color darker and muted ✅
+
 fix pricing page md view
 gsap
 recreate pricing page in jsx

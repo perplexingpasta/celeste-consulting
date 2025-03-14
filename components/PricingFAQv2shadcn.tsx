@@ -191,11 +191,11 @@ const PricingFAQv2shadcn = () => {
           Will you work with my local competition as well?
         </AccordionTrigger>
         <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
-          To give you a <span className="font-bold">best-in-class service</span>
-          , we refuse to work with your competition located in the vicinity of
-          your dermatology practice. As a result, our ads perform better, your
-          profile on Google Maps stands out and thus, you are favored by the
-          patients.
+          To give you the{" "}
+          <span className="font-bold">best-in-class service</span>, we refuse to
+          work with your competition located in the vicinity of your dermatology
+          practice. As a result, our ads perform better, your profile on Google
+          Maps stands out and thus, you are favored by the patients.
         </AccordionContent>
       </AccordionItem>
     </Accordion>

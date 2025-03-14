@@ -92,13 +92,13 @@ export const servicesv2 = [
   },
   {
     id: 2,
-    title: "Ad Management & Medical Marketing",
+    title: "Medical Marketing",
     des: "Run targeted ad campaigns for your ideal patient demographic. Supplemented with landing pages for maximum effect.",
   },
   {
     id: 3,
     title: "Lead Nurturing",
-    des: "Automate the entire lead nurturing process and get over a 70% show up rate on all generated leads.",
+    des: "Automate the entire lead nurturing process and see a significant increase in show up rates on all generated leads.",
   },
   {
     id: 4,

@@ -5,6 +5,9 @@ import Switch from "react-switch";
 import { PricingUnit } from "./ui/PricingUnit";
 import Image from "next/image";
 import { useTheme } from "next-themes";
+import { PiPottedPlantFill } from "react-icons/pi";
+import { GoStarFill } from "react-icons/go";
+import { FaCrown } from "react-icons/fa6";
 
 const PricingContainer = () => {
   const { theme } = useTheme();
@@ -94,7 +97,7 @@ const PricingContainer = () => {
               >
                 <Stack w={"100%"} align={"center"} spacing={10}>
                   <div className="flex flex-1 gap-2">
-                    <Image
+                    {/* <Image
                       src="/images/plant-black.svg"
                       alt=""
                       height={20}
@@ -107,7 +110,8 @@ const PricingContainer = () => {
                       height={20}
                       width={20}
                       className="hidden dark:block"
-                    />
+                    /> */}
+                    <PiPottedPlantFill className="text-xl lg:mt-1" />
                     <Text
                       sx={{
                         fontWeight: 700,
@@ -240,7 +244,7 @@ const PricingContainer = () => {
                   className="pt-4"
                 >
                   <div className="flex flex-1 gap-1">
-                    <Image
+                    {/* <Image
                       src="/images/star-black.svg"
                       alt=""
                       height={20}
@@ -253,7 +257,8 @@ const PricingContainer = () => {
                       height={20}
                       width={20}
                       className="hidden dark:block"
-                    />
+                    /> */}
+                    <GoStarFill className="text-xl" />
                     <Text
                       sx={{
                         fontWeight: 700,
@@ -354,20 +359,21 @@ const PricingContainer = () => {
               >
                 <Stack w={"100%"} align={"center"} spacing={10}>
                   <div className="flex flex-1 gap-2">
-                    <Image
+                    {/* <Image
                       src="/images/crown-black.svg"
                       alt=""
                       height={20}
                       width={20}
                       className="dark:hidden"
-                    />
+                  />
                     <Image
                       src="/images/crown.svg"
                       alt=""
                       height={20}
                       width={20}
                       className="hidden dark:block"
-                    />
+                    /> */}
+                    <FaCrown className="text-xl" />
                     <Text
                       sx={{
                         fontWeight: 700,
@@ -414,14 +420,15 @@ const PricingContainer = () => {
                     className="font-lexendDeca font-bold"
                   >
                     <Text fz={"2rem"}>₹</Text>
-                    {monthly ? "1,26,000" : "72,997"}
+                    {monthly ? "1,26,000" : "74,997"}
                     <Text fz={"2rem"}>/mo</Text>
                   </Title>
                   <Stack className="pt-5" w={"100%"} align="start" spacing={10}>
                     <p className="font-lexendDeca">Everything before +</p>
                     <PricingUnit name="Brand Identity & Logo Design" />
                     <PricingUnit name="Metallic Digital Business Card" />
-                    <PricingUnit name="Email Marketing" />
+                    <PricingUnit name="WhatsApp Outreach" />
+                    {/* <PricingUnit name="Email Marketing" /> */}
                     <PricingUnit name="Orion CRM with AI Automation" />
                     <PricingUnit name="Receptionist & Staff Training" />
                     <PricingUnit name="12 Business Emails" />

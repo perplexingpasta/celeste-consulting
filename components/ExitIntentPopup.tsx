@@ -100,7 +100,7 @@ const ExitIntentPopup: React.FC = () => {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 top-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-50"
+      className="fixed bottom-0 left-0 right-0 top-0 z-50 hidden items-center justify-center bg-gray-500 bg-opacity-50 md:flex"
       onClick={handleClose}
     >
       <div
@@ -118,13 +118,14 @@ const ExitIntentPopup: React.FC = () => {
         <h1 className="mb-6 bg-gradient-to-r from-indigo-800 to-indigo-500 p-2 px-4 text-center text-xl font-bold uppercase tracking-wide text-white opacity-75 md:p-3 md:px-5 md:text-4xl">
           Wait! <br /> Don&apos;t leave yet
         </h1>
-        <p className="text-center text-lg md:text-2xl">
-          For a limited time, <br />
+        <p className="text-center text-lg md:text-2xl lg:text-xl lg:leading-relaxed">
+          For a limited time, <br className="lg:hidden" />
           we&apos;re offering our <br />
           <span className="font-bold">
-            Patient-Oriented <br /> Medical Website
+            Patient-Oriented <br className="lg:hidden" /> Medical Website
           </span>{" "}
-          for <br /> your dermatology practice, <br /> absolutely for FREE!
+          for <br className="lg:hidden" /> your dermatology practice, <br />{" "}
+          absolutely for FREE!
         </p>
         <div className="mt-8 text-center">
           <Link

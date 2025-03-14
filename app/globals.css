@@ -131,7 +131,7 @@ html {
 /* MY OWN CLASSES */
 /* THIS CONTROLS TEXT HIGHLIGHTING */
 ::selection {
-  @apply bg-indigo-600 text-white;
+  @apply bg-indigo-700 bg-opacity-75 text-white;
 }
 
 .gradient-text {
