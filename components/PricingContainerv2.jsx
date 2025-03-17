@@ -1,10 +1,10 @@
 "use client";
 import { Box, Divider, Flex, Group, Stack, Text, Title } from "@mantine/core";
 import { useState } from "react";
-import Switch from "react-switch";
 import { PricingUnit } from "./ui/PricingUnit";
-import Image from "next/image";
 import { useTheme } from "next-themes";
+// import Switch from "react-switch";
+// import Image from "next/image";
 import { PiPottedPlantFill } from "react-icons/pi";
 import { GoStarFill } from "react-icons/go";
 import { FaCrown } from "react-icons/fa6";
@@ -65,7 +65,7 @@ const PricingContainer = () => {
           <Group>
             <Flex
               align={"center"}
-              direction={{ base: "column", sm: "row" }}
+              direction={{ base: "column", md: "row" }}
               color={"white"}
               gap={{ base: "2.5rem", sm: 50 }}
             >
@@ -89,10 +89,16 @@ const PricingContainer = () => {
                     height: "32rem",
                     paddingTop: "2rem",
                   },
-                  "@media (min-width: 756px) and (max-width: 820px)": {
-                    width: "15rem",
-                    borderRadius: "0 0 0 0",
+                  "@media (min-width: 756px) and (max-width: 1023px)": {
+                    width: "24rem",
+                    borderRadius: "1.4rem",
+                    height: "32rem",
+                    padding: "3rem",
                   },
+                  // "@media (min-width: 756px) and (max-width: 820px)": {
+                  //   width: "15rem",
+                  //   borderRadius: "0 0 0 0",
+                  // },
                 }}
               >
                 <Stack w={"100%"} align={"center"} spacing={10}>
@@ -211,11 +217,16 @@ const PricingContainer = () => {
                     height: "42rem",
                     // paddingTop: "1rem",
                   },
-
-                  "@media (min-width: 756px) and (max-width: 820px)": {
-                    width: "15rem",
-                    borderRadius: "0.7rem",
+                  "@media (min-width: 756px) and (max-width: 1023px)": {
+                    width: "24rem",
+                    borderRadius: "1.4rem",
+                    height: "42rem",
+                    padding: "3rem",
                   },
+                  // "@media (min-width: 756px) and (max-width: 820px)": {
+                  //   width: "15rem",
+                  //   borderRadius: "0.7rem",
+                  // },
                 }}
               >
                 <Box
@@ -288,7 +299,7 @@ const PricingContainer = () => {
                       <s>
                         <Text fz={"1.3rem"}>₹</Text>
                       </s>
-                      <s>{monthly ? "31,620" : "35,000"}</s>
+                      <s>{monthly ? "31,620" : "48,000"}</s>
                       <s>
                         <Text fz={"1.3rem"}>/mo</Text>
                       </s>
@@ -316,7 +327,7 @@ const PricingContainer = () => {
                     {/* <PricingUnit name="Complete Photography & Videography of your Practice" /> */}
                     <PricingUnit name="Golden Lead Nurturing" />
                     <PricingUnit name="Social Media Profile Management" />
-                    <PricingUnit name="Custom Digital Business Card" />
+                    {/* <PricingUnit name="Custom Digital Business Card" /> */}
                     <PricingUnit name="7 Business Emails" />
                     <PricingUnit name="Monthly Strategy Meetings" />
                     <PricingUnit name="Priority Support" />
@@ -351,10 +362,16 @@ const PricingContainer = () => {
                     height: "40rem",
                     paddingTop: "2rem",
                   },
-                  "@media (min-width: 756px) and (max-width: 820px)": {
-                    width: "15rem",
-                    borderRadius: "0 0.7rem 0.7rem 0",
+                  "@media (min-width: 756px) and (max-width: 1023px)": {
+                    width: "24rem",
+                    borderRadius: "1.4rem",
+                    height: "37rem",
+                    padding: "3rem",
                   },
+                  // "@media (min-width: 756px) and (max-width: 820px)": {
+                  //   width: "15rem",
+                  //   borderRadius: "0 0.7rem 0.7rem 0",
+                  // },
                 }}
               >
                 <Stack w={"100%"} align={"center"} spacing={10}>
@@ -426,7 +443,7 @@ const PricingContainer = () => {
                   <Stack className="pt-5" w={"100%"} align="start" spacing={10}>
                     <p className="font-lexendDeca">Everything before +</p>
                     <PricingUnit name="Brand Identity & Logo Design" />
-                    <PricingUnit name="Metallic Digital Business Card" />
+                    {/* <PricingUnit name="Metallic Digital Business Card" /> */}
                     <PricingUnit name="WhatsApp Outreach" />
                     {/* <PricingUnit name="Email Marketing" /> */}
                     <PricingUnit name="Orion CRM with AI Automation" />

@@ -16,15 +16,6 @@ export const metadata = {
 const Pricing = () => {
   return (
     <div className="mx-auto max-w-7xl" id="pricing">
-      {/* <header>
-        <h1 className="heading relative pt-4 !normal-case">
-          Everything you need for{" "}
-          <span className="text-[#7F85E4]">
-            best in class{" "}
-          </span>{" "}
-          service
-        </h1>
-      </header> */}
       <header id="pricing" className="pt-24 md:pt-40">
         <h1 className="headingv2 relative">
           Pricing
@@ -59,29 +50,14 @@ const Pricing = () => {
                 position="right"
               />
             </div>
-            {/* <div className="block dark:hidden">
-              <LitUpButton
-                title="Get Started"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </div> */}
           </a>
         </section>
 
-        <section className="relative mt-20 md:mt-40 lg:mt-32">
-          {/* <h1 className="heading relative block !font-extrabold dark:hidden">
-            <span className="relative inline-block rounded-lg bg-gradient-to-r from-indigo-500 to-purple px-3 py-2 text-white">
-              Frequently Asked Questions
-            </span>
-          </h1> */}
-          {/* <h1 className="heading relative hidden !font-extrabold dark:block">
-            <span className="text-purple">Frequently Asked Questions</span>
-          </h1> */}
-          <h1 className="text-center text-2xl font-black uppercase md:text-5xl">
+        <section className="relative mt-20 md:mt-24 lg:mt-32">
+          <h1 className="text-center text-2xl font-black uppercase md:text-4xl lg:text-5xl">
             Frequently Asked Questions
           </h1>
-          <div className="mx-auto mb-10 mt-4 max-w-[90%] md:mb-20 lg:mt-12">
+          <div className="mx-auto mb-10 mt-4 max-w-[90%] md:mb-20 md:mt-8 lg:mt-12">
             <DynamicFAQs />
           </div>
         </section>

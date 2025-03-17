@@ -113,8 +113,8 @@ email marketing -> WhatsApp outreach ✅
 ooh and make t3 74,997 ✅
 make free website offer smaller in lg view ✅
 cc.in text highlight color darker and muted ✅
+fix pricing page md view ✅
 
-fix pricing page md view
 gsap
 recreate pricing page in jsx
 about page
