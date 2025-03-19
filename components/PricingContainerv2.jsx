@@ -326,7 +326,9 @@ const PricingContainer = () => {
                     <PricingUnit name="Facebook + Instagram + Google Ads" />
                     {/* <PricingUnit name="Complete Photography & Videography of your Practice" /> */}
                     <PricingUnit name="Golden Lead Nurturing" />
-                    <PricingUnit name="Social Media Profile Management" />
+                    <PricingUnit name="Social Media Management" />
+                    {/* <PricingUnit name="Content Planning & Posts" /> */}
+                    <PricingUnit name="Video Editing & Post-Production" />
                     {/* <PricingUnit name="Custom Digital Business Card" /> */}
                     <PricingUnit name="7 Business Emails" />
                     <PricingUnit name="Monthly Strategy Meetings" />

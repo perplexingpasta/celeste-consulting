@@ -78,6 +78,17 @@ const PricingFAQv2shadcn = () => {
         </AccordionContent>
       </AccordionItem>
 
+      <AccordionItem value="item-10">
+        <AccordionTrigger className="md:text-lg lg:text-xl">
+          Will you post on my Facebook, Instagram accounts as well?
+        </AccordionTrigger>
+        <AccordionContent className="dark:text-white-100 text-sm font-normal leading-relaxed text-gray-700 md:text-lg lg:mb-4">
+          Starting from our <span className="font-bold">Professional Suite</span>, we offer social media management for your practice as well. This includes content planning, scheduled posting, educational posts, awareness posts, video editing, and post-production for short-form content. All this builds a warm audience on your social media handles.
+          <br />
+          We repurpose these posts and videos across various platforms, including Facebook, Instagram, YouTube, Twitter, etc. This ensures we cover all the bases and make the most of our efforts!
+        </AccordionContent>
+      </AccordionItem>
+
       <AccordionItem value="item-5">
         <AccordionTrigger className="md:text-lg lg:text-xl">
           How do you increase Google Reviews? Are they fake?
