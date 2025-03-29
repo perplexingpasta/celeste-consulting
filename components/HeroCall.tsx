@@ -30,8 +30,8 @@ const HeroCall = () => {
           <p className="mt-8 max-w-[95%] md:text-lg lg:text-xl lg:opacity-75">
             {/* Are you tired of not knowing when & where your next patient may come from? Maybe some days you have more patients than you can handle while some other days your waiting room is almost empty? Are you concerned about the growing popularity of aesthetic and wellness institutions like traya, kaya, olivia, etc.? */}
             Do you feel uncertain about your patient flow? Are busy days
-            followed by almost empty waiting rooms? Concerned about the rise of
-            aesthetic and wellness clinics like Traya, Kaya, Olivia & others?
+            followed by almost empty waiting rooms? Are you concerned about the
+            rise of aesthetic and wellness clinics which have been on the rise?
             <br />
             <br />
             Céleste Consulting leverages proven, reliable and automated patient
@@ -42,6 +42,13 @@ const HeroCall = () => {
             Our suites contain proven processes and marketing strategies
             designed for dermatologists with independent clinical practice who
             want to scale & crush their competition.
+            <br />
+            <br />
+            We guarantee at least 15 booked appointments in your calendar -
+            every single month. Otherwise, we work for you for FREE until we
+            achieve that.
+            <br />
+            Guaranteed!
           </p>
         </div>
 

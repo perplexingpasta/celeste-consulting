@@ -17,8 +17,8 @@ const layout = ({ children }: { children: React.ReactNode }) => {
         <div className="w-full">
           {/* <div className="w-full max-w-7xl"> */}
           <FloatingNav3 navItemsFloatingNav={navItemsFloatingNav} />
-          <Popup />
-          <ExitIntentPopup />
+          {/* <Popup /> */}
+          {/* <ExitIntentPopup /> */}
           <GridAndDotBg />
           {children}
           {/* <DynamicCookie /> */}

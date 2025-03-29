@@ -20,10 +20,10 @@ const TermsOfUse = () => {
             <span className="text-purple">Terms of Use</span>
           </h1>
           <p className="relative mb-16 items-center justify-center py-4 text-center text-lg text-black-100 dark:text-white">
-            Last updated: March 2025
+            Last updated: April 2025
           </p>
         </header>
-        <main className="relative z-10 text-xl">
+        <main className="mx-auto max-w-[90%] md:max-w-7xl relative md:text-xl z-10">
           <p>
             These terms and conditions outline the rules and regulations for the
             use of Celeste Consulting&#x27;s Website, located at

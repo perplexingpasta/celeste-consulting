@@ -26,9 +26,9 @@ export default function Home() {
         <section>
           <DynamicServicesv2 />
         </section>
-        <section>
+        {/* <section>
           <DynamicFreeWebsiteOffer />
-        </section>
+        </section> */}
         {/* <section className="relative mt-12 border-b-2 border-t-2 md:mb-20 md:mt-40 md:rounded-3xl md:border-2 md:border-black-100">
           <DynamicSubscribe />
         </section> */}

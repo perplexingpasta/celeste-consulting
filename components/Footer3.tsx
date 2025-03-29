@@ -100,7 +100,7 @@ const Footer = () => {
                       alt=""
                       className="mr-3 inline-flex flex-shrink-0"
                     />
-                    <Link href={item.href} target="_blank" rel="noopener">
+                    <Link href={item.href}>
                       {item.label}
                     </Link>
                   </li>
@@ -109,7 +109,6 @@ const Footer = () => {
               <div className="flex flex-row justify-between text-sm text-white-400 md:text-base lg:mt-10 lg:flex-col lg:gap-y-1">
                 <Link
                   href="/legal/privacy-policy"
-                  target="_blank"
                   className="transition-all hover:scale-110 hover:text-purple"
                 >
                   <p>Privacy Policy</p>
@@ -117,7 +116,6 @@ const Footer = () => {
                 <br />
                 <Link
                   href="/legal/terms-of-use"
-                  target="_blank"
                   className="transition-all hover:scale-110 hover:text-purple"
                 >
                   <p>Terms of Use</p>

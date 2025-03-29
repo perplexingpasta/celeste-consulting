@@ -20,11 +20,11 @@ const PrivacyPolicy = () => {
             <span className="text-purple">Privacy Policy</span>
           </h1>
           <p className="relative mb-16 items-center justify-center py-4 text-center text-lg text-black-100 dark:text-white">
-            Last updated: March 2025
+            Last updated: April 2025
           </p>
         </header>
 
-        <main className="relative text-xl">
+        <main className="mx-auto max-w-[90%] md:max-w-7xl relative md:text-xl">
           <p>
             This Privacy Policy describes Our policies and procedures on the
             collection, use and disclosure of Your information when You use the
