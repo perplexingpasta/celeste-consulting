@@ -12,7 +12,7 @@ const Servicesv2 = () => {
       </h1>
       <p className="my-4 text-center text-lg opacity-75 md:mb-10 md:mt-5 md:text-xl lg:mx-auto lg:max-w-[70%]">
         We take care of everything so that you can focus on what you do best -
-        treating your patients!
+        growing your business!
       </p>
       <div className="mt-8 grid grid-cols-1 gap-x-32 p-4 md:grid-cols-2 lg:grid-cols-3">
         {servicesv2.map((item) => (
@@ -22,16 +22,17 @@ const Servicesv2 = () => {
         ))}
       </div>
       <div className="text-center text-xl md:mt-8 md:text-3xl">
-        &quot;Céleste Consulting Is Rocketfuel Your Practice Needs To
+        &quot;Céleste Consulting Is Rocketfuel Your Business Needs To
         Succeed!&quot;
       </div>
       <a
-        href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
+        // href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
+        href="tel:+916362840780"
         target="_blank"
       >
         <div className="text-center mt-8">
           <LitUpButton
-            title="BOOK A CALL NOW"
+            title="TALK TO OUR TEAM"
             icon={<FaLocationArrow />}
             position="right"
           />

@@ -17,31 +17,42 @@ const Hero = () => {
       <div className="relative z-10 my-5 flex justify-center md:my-12">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           {/* HERO BIG TEXT */}
-          {/* <div className="mx-auto hidden max-w-5xl px-4 dark:block lg:mb-10">
-            <h1 className="mt-12 text-center text-4xl font-extrabold uppercase tracking-wide text-white md:text-5xl md:!leading-tight lg:text-6xl lg:!leading-snug">
-              Medical Marketing <br className="hidden lg:block" /> to Grow your{" "}
-              <br className="hidden lg:block" />
+          <div className="mx-auto max-w-5xl px-4 lg:mb-10">
+            <h1 className="mt-12 text-center text-4xl font-black uppercase tracking-wide text-black-100 md:text-5xl md:!leading-tight lg:text-6xl lg:!leading-snug">
               <span className="gradient-text animate-gradient font-black text-transparent">
-                Dermatology Practice
+                From Local <br className="block md:hidden" /> to Digital:
               </span>
+              <br />
+              Helping Your Business Thrive Online
             </h1>
-          </div> */}
-          <div className="mt-4 lg:mb-10">
-            <HeroHighlightDemo />
           </div>
+          {/* <div className="mt-4 lg:mb-10">
+            <HeroHighlightDemo />
+          </div> */}
 
           {/* HI WE ARE */}
-          <p className="my-10 mt-24 text-center text-base text-black-100 md:max-w-[80%] md:text-lg md:tracking-wider lg:my-0 lg:mt-24 lg:max-w-[70%] lg:text-xl">
+          <p className="mt-24 text-center text-base text-black-100 md:max-w-[80%] md:text-lg md:tracking-wider lg:my-0 lg:mt-16 lg:max-w-[70%] lg:text-xl">
             Welcome To <span className="font-semibold">Céleste Consulting</span>{" "}
             ✨
-            <br className="hidden lg:block" />
-            <br /> We help Dermatologists with Consistent, Predictable & Loyal
-            Patient Acquisition
+            <br className="lg:hidden" />
+            <br className="lg:hidden" />
+            {/* <br /> We help Local Businesses by building Consistent, Predictable
+            & Loyal Client Acquisition Systems.
+            <br />
+            <br /> */}
+          </p>
+          <p className="mb-8 max-w-[90%] text-center text-base text-black-100 md:max-w-[80%] md:text-lg md:tracking-wider lg:my-0 lg:mt-12 lg:max-w-[70%] lg:text-xl">
+            We build fast, beautiful websites and provide all-in-one marketing
+            solutions—from SEO to ads to social media management.
+            <br />
+            With our help, you can focus on what matters most: growing your
+            business!
           </p>
 
           {/* CTA BUTTONS */}
           <a
-            href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
+            // href="https://calendly.com/celeste-consulting/strategy-session-w-celeste-consulting"
+            href="tel:+916362840780"
             target="_blank"
           >
             {/* <div className="hidden dark:block">
@@ -53,7 +64,7 @@ const Hero = () => {
             </div> */}
             <div>
               <LitUpButton
-                title="BOOK A CALL NOW"
+                title="CALL NOW"
                 icon={<FaLocationArrow />}
                 position="right"
               />

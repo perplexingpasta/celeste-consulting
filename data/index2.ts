@@ -3,16 +3,18 @@ import { GoBook, GoStar, GoHome, GoBriefcase } from "react-icons/go";
 
 export const navItems = [
   { name: "Home", link: "/", icon: GoHome },
-  { name: "Reviews", link: "/testimonials", icon: GoStar },
-  { name: "Pricing", link: "/pricing", icon: GoBriefcase },
+  { name: "Services", link: "/#services", icon: GoBriefcase },
+  // { name: "Reviews", link: "/testimonials", icon: GoStar },
+  // { name: "Pricing", link: "/pricing", icon: GoBriefcase },
   { name: "Contact", link: "/contact", icon: FiPhoneCall },
   { name: "About Us", link: "/", icon: GoBook },
 ];
 
 export const navItemsFloatingNav = [
   { name: "Home", link: "/" },
-  { name: "Reviews", link: "/testimonials" },
-  { name: "Pricing", link: "/pricing" },
+  { name: "Services", link: "/#services" },
+  // { name: "Reviews", link: "/testimonials" },
+  // { name: "Pricing", link: "/pricing" },
   { name: "Contact", link: "/contact" },
   { name: "About Us", link: "/" },
 ];
@@ -87,13 +89,13 @@ export const services = [
 export const servicesv2 = [
   {
     id: 1,
-    title: "Patient-Oriented Medical Website",
+    title: "Sales-Oriented Website",
     des: "All our websites are hand-coded which makes them superfast! Looks so good that you won't stop talking about it. Guaranteed.",
   },
   {
     id: 2,
-    title: "Medical Marketing",
-    des: "Run targeted ad campaigns for your ideal patient demographic. Supplemented with landing pages for maximum effect.",
+    title: "Targeted Ads",
+    des: "Run targeted ad campaigns for your ideal customer demographic. We supplement this with landing pages & analytics for maximum effect.",
   },
   {
     id: 3,
@@ -101,50 +103,85 @@ export const servicesv2 = [
     des: "Automate the entire lead nurturing process and see a significant increase in show up rates on all generated leads.",
   },
   {
-    id: 4,
-    title: "Sales",
-    des: "Talking to prospective patients, ethical  persuasion, handling objections and closing the deal. All of this, so that they show up for consultation.",
+    id: 12,
+    title: "Logo Design",
+    des: "Transform your brand’s identity with a custom logo that stands out, tells your story, and makes an unforgettable impression.",
   },
   {
     id: 5,
-    title: "Data Reactivation",
-    des: "Launch your 1st dermatological Data Reactivation campaign and generate 50-500 high quality appointments for free.",
+    title: "Database Reactivation",
+    des: "Launch your 1st Data Reactivation campaign and generate 50-500 high quality appointments for free.",
   },
   {
     id: 6,
-    title: "Google Business Profile Manager",
-    des: "Boost your dermatology practice's listing on Google Maps and get more 5 star reviews from your satisfied patients.",
+    title: "Google Business Profile Optimisation",
+    des: "Boost your businesses's listing on Google Maps and get a lot more 5 star reviews from your satisfied clients.",
   },
   {
-    id: 7,
-    title: "Front Desk Helper",
-    des: "Turn your Front Desk into a medical sales machine that never misses a new lead with our AI Orion specifically built for dermatological practices.",
-  },
-  {
-    id: 8,
-    title: "Operations",
-    des: "How to manage your entire practice, systemize, optimize for efficiency, leverage technology from a business standpoint.",
-  },
-  {
-    id: 9,
-    title: "Management & Hiring",
-    des: "Educate your staff on the best practices, skills & etiquette to attend to patients so they feel most satisfied with the overall experience.",
-  },
-  {
-    id: 10,
-    title: "Email Marketing",
-    des: "Set up a patient database which will help in email marketing and further draw in more patients around the year.",
+    id: 13,
+    title: "Social Media Management",
+    des: "We craft tailored content strategies, posting schedule, create engaging posts and reels, and manage your social media to boost brand visibility, engage your audience, and drive up your revenue.",
   },
   {
     id: 11,
     title: "Brand Identity",
-    des: "Build a strong presence by curating an identity for your practice. A color palette, logo & aesthetic to establish familiarity among new patients.",
+    des: "Build a strong presence by curating an identity for your business. A color palette, logo & an unique aesthetic to establish familiarity among new patients.",
   },
   {
-    id: 12,
-    title: "Access To Our Community",
-    des: "Access to our exclusive community of experienced dermatologists from all over India. Learn practical tips for best running your own practice.",
+    id: 16,
+    title: "Business Cards",
+    des: "Get professional, eye-catching business cards that leave a lasting impression and reflect the unique identity of your brand.",
   },
+  // {
+  //   id: 14,
+  //   title: "Photography & Videography",
+  //   des: "Build a strong presence by curating an identity for your practice. A color palette, logo & aesthetic to establish familiarity among new patients.",
+  // },
+  {
+    id: 15,
+    title: "Custom Domain",
+    des: "Secure a custom domain name that aligns perfectly with your business, making it easier for customers to discover you.",
+  },
+  {
+    id: 18,
+    title: "E-Commerce App",
+    des: "Get a fully customizable, mobile-optimized platform to sell your products and reach a global audience easily.",
+  },
+  {
+    id: 17,
+    title: "Orion CRM Software",  
+    des: "Harness the power of Orion—our proprietary CRM software, to track leads, manage customer relationships, and make smarter decisions that drive success.",
+  },
+  // {
+  //   id: 7,
+  //   title: "Front Desk Helper",
+  //   des: "Turn your Front Desk into a medical sales machine that never misses a new lead with our AI Orion specifically built for dermatological practices.",
+  // },
+  //   {
+  //     id: 10,
+  //     title: "Email Marketing",
+  //     des: "Set up a patient database which will help in email marketing and further draw in more patients around the year.",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Sales",
+  //     des: "Talking to prospective patients, ethical  persuasion, handling objections and closing the deal. All of this, so that they show up for consultation.",
+  //   },
+  // {
+  //   id: 8,
+  //   title: "Operations",
+  //   des: "How to manage your entire practice, systemize, optimize for efficiency, leverage technology from a business standpoint.",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Management & Hiring",
+  //   des: "Educate your staff on the best practices, skills & etiquette to attend to patients so they feel most satisfied with the overall experience.",
+  // },
+  // {
+  //   id: 12,
+  //   title: "Access To Our Community",
+  //   des: "Access to our exclusive community of experienced dermatologists from all over India. Learn practical tips for best running your own practice.",
+  // },
 ];
 
 export const testimonials = [

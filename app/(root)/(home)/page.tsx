@@ -17,9 +17,9 @@ export default function Home() {
         <section>
           <Hero2 />
         </section>
-        <section>
+        {/* <section>
           <DynamicHeroCall />
-        </section>
+        </section> */}
         {/* <section className="hidden dark:block">
           <DynamicGrid />
           </section> */}

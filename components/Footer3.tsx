@@ -8,8 +8,8 @@ const Footer = () => {
     links: [
       { label: "Home", href: "/" },
       { label: "Services", href: "/#services" },
-      { label: "Reviews", href: "/reviews" },
-      { label: "Pricing", href: "/pricing" },
+      // { label: "Reviews", href: "/reviews" },
+      // { label: "Pricing", href: "/pricing" },
       { label: "Contact", href: "/contact" },
       { label: "About Us", href: "/" },
     ],
@@ -57,11 +57,11 @@ const Footer = () => {
                   céleste consulting
                 </p>
                 <p className="text-sm font-light opacity-75 md:text-xl">
-                  Helping Dermatologists with{" "}
+                  Helping Local Businesses with{" "}
                   <span className="transition-all group-hover:text-purple">
                     Consistent, Predictable & Loyal
                   </span>{" "}
-                  Patient Acquisition
+                  Client Acquisition
                 </p>
               </div>
             </Link>
