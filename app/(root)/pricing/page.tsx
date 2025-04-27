@@ -2,7 +2,7 @@ import MagicButton from "@/components/ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import LitUpButton from "@/components/ui/LitUpButton";
 import dynamic from "next/dynamic";
-import PricingContainer from "@/components/PricingContainerv2";
+import PricingContainer from "@/components/PricingContainerv4";
 
 const DynamicWannaKnowMore = dynamic(
   () => import("@/components/WannaKnowMore"),

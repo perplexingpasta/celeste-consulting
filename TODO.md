@@ -131,3 +131,13 @@ OPTIMIZATION:
 use PurgeCss to remove unused CSS
 minimize js by tree shaking
 use a CDN to serve static assets
+
+
+
+
+
+
+
+https://youtu.be/RDB5rULr2cs
+https://youtu.be/uKqRAC-JNOM
+https://youtu.be/635K2NkLmOM
