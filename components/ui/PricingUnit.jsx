@@ -12,7 +12,7 @@ export const PricingUnit = ({ name }) => {
           opacity: 0.7,
         }}
       />
-      <Text fz={"sm"} fw={400} className="font-lexendDeca">
+      <Text fz={"sm"} fw={400} className="font-lexendDeca" >
         ✦ {name}
       </Text>
     </>

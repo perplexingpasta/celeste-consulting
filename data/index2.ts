@@ -59,33 +59,6 @@ export const gridItems = [
   },
 ];
 
-export const services = [
-  {
-    id: 1,
-    title: "Professional Website Development",
-    des: "All our websites are hand-coded by our experienced team of web developers. Looks so good that you won't stop talking about it. Guaranteed.",
-    img: "/images/graphicweb.jpg",
-  },
-  {
-    id: 2,
-    title: "Ad Management & Medical Marketing",
-    des: "We run targeted ad campaigns for your ideal patient demographic which helps achieve a loyal patient inflow all the time.",
-    img: "/images/graphicad.jpg",
-  },
-  {
-    id: 3,
-    title: "Front Office Helper",
-    des: "Turn your front office staff into a medical sales machine that never misses a new lead with our software Orion specifically built for dermatological practices.",
-    img: "/images/graphicfront.jpg",
-  },
-  {
-    id: 4,
-    title: "Google Maps & Reviews Manager",
-    des: "Boost your local listing on Google Maps and get more 5 star reviews from your satisfied patients by database reactivation.",
-    img: "/images/graphicmap.jpg",
-  },
-];
-
 export const servicesv2 = [
   {
     id: 1,
@@ -149,7 +122,7 @@ export const servicesv2 = [
   },
   {
     id: 17,
-    title: "Orion CRM Software",  
+    title: "Orion CRM Software",
     des: "Harness the power of Orion—our proprietary CRM software, to track leads, manage customer relationships, and make smarter decisions that drive success.",
   },
   // {
@@ -181,6 +154,67 @@ export const servicesv2 = [
   //   id: 12,
   //   title: "Access To Our Community",
   //   des: "Access to our exclusive community of experienced dermatologists from all over India. Learn practical tips for best running your own practice.",
+  // },
+];
+
+export const pricingServices = [
+  {
+    id: 1,
+    name: "web development",
+    priceMonth: "9,997/mo",
+    price3Month: "8,000/mo",
+    features: [
+      "Professional Website Development & Maintenance",
+      "5 Page Sales-Oriented Dynamic Website",
+      "100% Hand-coded for best Google Ranking",
+      "Integrated with WhatsApp, Analytics, Google Maps & Google Reviews",
+      "Copywriting & Hosting Included",
+      "Regular Testing & Maintenance",
+      "Active SEO Optimization",
+      "Redesigns & Changes",
+      "Custom Domain is NOT Included",
+      // "a digital business card webpage",
+    ],
+  },
+  {
+    id: 2,
+    name: "GMB Optimization",
+    priceMonth: "4,997/mo",
+    price3Month: "4,000/mo",
+    features: [
+      "Complete Google My Business Profile Optimization for Visibility",
+      "Increase Google Reviews Organically",
+      "Custom QR Code Google Reviews Standee",
+      "Reply to all reviews earned in the past 6 months",
+    ],
+  },
+  {
+    id: 3,
+    name: "Social Media Management",
+    priceMonth: "9,997/mo",
+    price3Month: "8,000/mo",
+    features: [
+      "Setup of Instagram and Facebook Business Pages",
+      "Configuration of YouTube, LinkedIn & WhatsApp Business Profile as well",
+      "Creation of Trendy & Viral Content",
+      "Customised Content Strategy Calendar",
+      "Video & Image Editing for Posts Included",
+      "Daily Stories NOT Included",
+    ],
+  },
+  // {
+  //   id: 4,
+  //   name: "Brand Identity",
+  //   priceMonth: "5000",
+  //   // price3Month: "24,000",
+  //   features: [
+  //     "Setup of Instagram and Facebook Business Pages",
+  //     "Configuration of YouTube, LinkedIn & WhatsApp Business Profile as well",
+  //     "Creation of Trendy & Viral Content",
+  //     "Customised Content Strategy Calendar",
+  //     "Video & Image Editing for Posts Included",
+  //     "Daily Stories NOT Included",
+  //   ],
   // },
 ];
 
